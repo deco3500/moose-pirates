@@ -28,17 +28,23 @@ Another way to integrate social media is to make it easy for users to share arti
 ####**The Team**
 
 Nick Cassidy
+
 Samuel Buckley
+
 Gareth Seeto
+
 Zaim Rashdan
 
 **Leader**: Nick
+
 **Logistics**: Gareth
 
 **How will decisions be made?**
+
 Decisions will be made with a majority vote. In the event of a tie, see the following section, as it is then considered a conflict.
 
 **How will the team handle poor performance and resolve conflicts?**
+
 Bo5's of rock paper scissors will be used in order to settle and conflict that may erupt. In the event of a tie, 
 the offended group member should acquire pistols and a duel will be held the next applicable dawn.
 
@@ -79,6 +85,7 @@ A Facebook group has been created, to be used for general communication across t
 A [GitHub repository](https://github.com/deco3500/moose-pirates) has also been created to share the project.
 
 **Plan**
+
 The fully realised version of MooseNews includes the Google Chrome plugin, complete with editable and shareable tags with social media integration , and the mobile application that was previously discussed. However, we have come to the conclusion that our this is an unattainable goal based on time and work constraints; so we have decided to only develop the Google Chrome plugin with editable tags and the social media integration if time allows it.
 
 The first task at hand is to design and conduct user testing for interface of MooseNews. We already have a concept design in place and we aim to refine it through user testing so we can accomplish our goal of presenting the user's news in the most efficient, simple, and appealing way possible.
