@@ -28,11 +28,8 @@ Another way to integrate social media is to make it easy for users to share arti
 ####**The Team**
 
 Nick Cassidy
-
 Samuel Buckley
-
 Gareth Seeto
-
 Zaim Rashdan
 
 **Leader**: Nick
@@ -97,6 +94,7 @@ The next task following the wire-frame would be to integrate the tag system and 
 If time permits, we will then move onto coding the social aspects of MooseNews; starting with adding friends within the application and sharing tags/articles between them. Social media integration will then be looked upon as an extension to this feature, enabling the user to share tags and articles through sites such as Facebook and gather more suggested tags and articles based upon the user's friends there.
 
 TODO
+
 • Project phases e.g. research; requirements; design; construction;
 • Key deliverables for each phase (Milestones) ;
 • Resources – equipment or other tools/people you might need.
