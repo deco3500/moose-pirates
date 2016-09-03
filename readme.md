@@ -61,7 +61,7 @@ If we cannot obtain a mutual understanding to solve our conflicts as a team,
  2. We will seek advice from the tutor.
  3. We will try to come out a solution with the advice given.
 
-If continuous effort of solving the conflict within the team and seeking advice from tutor/course coordinator does not make any progress, the final decision will be made by scrum master in neutral position.
+If continuous effort of solving the conflict within the team and seeking advice from tutor/course coordinator does not make any progress, the final decision will be made by team leader after discussing with all team members.
 
 
 **Communications**: Where and when will your team meet and how will you all communicate?1
@@ -76,11 +76,20 @@ Files will be shared through <i class = "icon-provider-gdrive"></i> Google Drive
 
 A Facebook group has been created, to be used for general communication across the semester.
 
-**Plan**: Identify the key tasks that need to be completed and when. Identify:
+A [GitHub repository](https://github.com/deco3500/moose-pirates) has also been created to share the project.
 
-!!**ERROR**!! This section is a __Pain__. 
-(Sections represented by the keyword __Pain__ will be  written by Gareth.) 
+**Plan**
+The fully realised version of MooseNews includes the Google Chrome plugin, complete with editable and shareable tags with social media integration , and the mobile application that was previously discussed. However, we have come to the conclusion that our this is an unattainable goal based on time and work constraints; so we have decided to only develop the Google Chrome plugin with editable tags and the social media integration if time allows it.
 
+The first task at hand is to design and conduct user testing for interface of MooseNews. We already have a concept design in place and we aim to refine it through user testing so we can accomplish our goal of presenting the user's news in the most efficient, simple, and appealing way possible.
+
+Once we have the design and interface of MooseNews finalised, the next task is start coding the plugin. This will be started by coding a wire-frame interface using HTML, CSS, and maybe JavaScript, to translate our design onto a web browser and into a working form.
+
+The next task following the wire-frame would be to integrate the tag system and news APIs. Since this is the core functionality of MooseNews, the most time and care is likely to be spend completing this task. The goal of this task is to ensure that the user's inputted tags is saved and is able to use the news APIs to call upon relevant news articles that match the tags.
+
+If time permits, we will then move onto coding the social aspects of MooseNews; starting with adding friends within the application and sharing tags/articles between them. Social media integration will then be looked upon as an extension to this feature, enabling the user to share tags and articles through sites such as Facebook and gather more suggested tags and articles based upon the user's friends there.
+
+TODO
 • Project phases e.g. research; requirements; design; construction;
 • Key deliverables for each phase (Milestones) ;
 • Resources – equipment or other tools/people you might need.
