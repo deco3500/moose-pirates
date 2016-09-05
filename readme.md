@@ -99,6 +99,8 @@ TODO
 • Key deliverables for each phase (Milestones) ;
 • Resources – equipment or other tools/people you might need.
 
-**Tags**: Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g.
+**Tags**: #Coordination #Awareness #CSCW #Journalists #News 
+
+Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g.
 awareness, Collaboration, CSCW) and 2 keywords related to journalism and News (e.g. Citizen
 Journalists, ...). I've no idea how we would tag this stuff.
