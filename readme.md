@@ -22,8 +22,8 @@ Moose News will also be linked to social media to enhance the experience for the
 Another way to integrate social media is to make it easy for users to share articles they feel are interesting. This can be done by dragging the articles from the main section of the page and dropping them onto the social media icons to the right of the page. This will facilitate convenient and simple sharing of articles on social media.
 
 ####**The Team**
-**Nick Cassidy - Team Leader and Coder**
-Has experience with Database and Web Design.
+**Nick Cassidy - Team Leader and Code**
+ Experienced in Web Application development, specifically PHP and Javascript, and Database Management.
 
 **Samuel Buckley - Code**
 From more of an engineering background, Samuel has experience in Java and Firmware and doesn't have the web-based background shared by the other members of the team. He has previously done many team based projects in both IT and Engineering.
@@ -33,6 +33,7 @@ Familiar with web design, web based coding (HTML, CSS, JavaScript, etc), interfa
 
 **Zaim Rashdan - Code and Design**
 Has experience with database (MySQL), web interface design and web based coding (HTML, CSS, JavaScript, etc). Zaim also has experience in some other programming language (Java, C#, etc). He has previously done other team based projects from other subjects such as DECO3800, DECO3801 and INFS3222.
+
 
 ####**Decision Making Process**
 **How will decisions be made?**
@@ -56,7 +57,7 @@ If continuous effort of solving the conflict within the team and seeking advice 
 **Communications**
 
 The team will meet during the P02 session on Friday afternoons, with extra meetings scheduled as required.
-Files will be shared through <i class = "icon-provider-gdrive"></i> Google Drive. 
+Files will be shared through Google Drive. 
 All files names and variables will conform to the camelCase naming convention.
 A Facebook group has been created, to be used for general communication across the semester.
 A [GitHub repository](https://github.com/deco3500/moose-pirates) has also been created to share the project.
