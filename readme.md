@@ -31,8 +31,8 @@ From more of an engineering background, Samuel has experience in Java and Firmwa
 **Gareth Seeto - Logistics and Design**
 Familiar with web design, web based coding (HTML, CSS, JavaScript, etc), interface design, and database coding and management (SQL, PHPMyAdmin, Microsoft Access, etc). With a background in team management, communication and leadership from subjects such as DECO3801, DECO2800, and MGTS1301, Gareth has the knowledge and skills suited to manage the Moose Pirates logistics as well as design the interface for MooseNews.
 
-**Zaim Rashdan - ROLE HERE PLEASE**
-
+**Zaim Rashdan - Code and Design**
+Has experience with database (MySQL), web interface design and web based coding (HTML, CSS, JavaScript, etc). Zaim also has experience in some other programming language (Java, C#, etc). He has previously done other team based projects from other subjects such as DECO3800, DECO3801 and INFS3222.
 
 ####**Decision Making Process**
 **How will decisions be made?**
