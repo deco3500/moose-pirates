@@ -1,0 +1,28 @@
+/* CSS Document */
+
+.tile{
+	height:200px;
+	text-align:center;
+	padding-top: 100px;
+}
+
+#facebook{
+	background-color:blue;
+	color: white;
+	
+	
+}
+
+#youtube{
+	background-color:red;
+}
+
+#google{
+	background-color:black;
+	color: white;
+}
+
+#imdb{
+	background-color:yellow;
+	color: black;
+}
