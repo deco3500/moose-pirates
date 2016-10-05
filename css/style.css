@@ -15,6 +15,7 @@
 
 #youtube{
 	background-color:red;
+	color: white;
 }
 
 #google{
@@ -26,3 +27,9 @@
 	background-color:yellow;
 	color: black;
 }
+
+.center{
+	align-content:center;
+	text-align:center;
+	padding-top: 30px;
+	}
