@@ -1,3 +1,7 @@
+<?php
+ini_set('display_errors', 'Off');
+$status = isset($_GET['status']) ? $_GET['status'] : '';
+?>
 <!doctype html>
 <html>
 <head>
@@ -21,7 +25,14 @@
  </div>
 </nav>
 
+<div class="center" >
+	<?php if ($status  == 'error') { echo '<div class="alert alert-danger">'. $_GET['message']. '</div>';} elseif ($status  == 'success') { echo '<div class="alert alert-info">'. $_GET['message']. '</div>';}?>
+		<form action="insert.php" method="post">
+			Keyword: <input type="text" name="keyword"><br>
+		<input type="submit">
+		</form>
 
+</div>
 
 
 </body>

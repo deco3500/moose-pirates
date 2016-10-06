@@ -1,5 +1,29 @@
 <?php
+
+$servername = "localhost";
+$username = "root"; //Eneter Username for ESSCC Earthquake DB
+$database="moose-pirates";
+$password="MYPASSWORD123";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
+
+
+
+$query = "Select keyword from user_keywords where id = 1";
+
+$result = mysqli_query($conn, $query);
+
+
 // This sample uses the Apache HTTP client from HTTP Components (http://hc.apache.org/httpcomponents-client-ga/)
+while ($row = mysqli_fetch_assoc($result)) {
 require_once 'HTTP/Request2.php';
 
 $request = new Http_Request2('https://api.cognitive.microsoft.com/bing/v5.0/news/search');
@@ -14,7 +38,7 @@ $request->setHeader($headers);
 
 $parameters = array(
     // Request parameters
-    'q' => 'batman',
+    'q' => $row['keyword'],
     'count' => '8',
     'offset' => '0',
     'mkt' => 'en-us',
@@ -27,7 +51,7 @@ $request->setMethod(HTTP_Request2::METHOD_GET);
 
 // Request body
 $request->setBody("{body}");
-
+}
 
 
 ?>
