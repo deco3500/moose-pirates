@@ -3,7 +3,7 @@ session_start();
 
 if (!isset($_SESSION['user']) || $_SESSION['authenticated'] == false) {
 
- header("location: adminLogin.php");
+ header("location: login.php");
 
 }
 
