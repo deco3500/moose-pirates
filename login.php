@@ -1,7 +1,9 @@
 <?php
 
+ session_start();
+  
 $servername = "localhost";
-$username = "root"; //Eneter Username for ESSCC Earthquake DB
+$username = "root"; 
 $database="moose-pirates";
 $password="MYPASSWORD123";
 
@@ -15,16 +17,37 @@ if ($conn->connect_error) {
 }
 mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 
+  if (isset($_SESSION['user']) && $_SESSION['authenticated'] == true) {
+    header("Location: index.php");
+  } else {
+    //Check that the user has entered an email and a password
+    if (isset($_POST['email']) && isset($_POST['password'])) {
+      $email = $_POST['email'];
+      $password = md5($_POST['password']);
+      $query = "SELECT * FROM users WHERE email ='".$email."';";
+      $result = mysqli_query($conn, $query);
+      if (!$result) {
+        die(mysqli_error($conn));
+      } else {
+        while ($row = mysqli_fetch_assoc($result)) {
+          if ($row['password'] == $password) {
+            $_SESSION['authenticated'] = true;
+          }
+        }
+      }
 
+      if ($result && $_SESSION['authenticated']) {
+        $_SESSION['user'] = $_POST['email'];
+        header('Location: index.php');
+      } else {
+        echo "Incorrect Username/Password";
+      }
 
-$query = "Select keyword from user_keywords where id = 1";
+    }
 
-$result = mysqli_query($conn, $query);
+}
 
-
-
-
-?>
+ ?>
 
 
 <!doctype html>
@@ -57,7 +80,7 @@ $result = mysqli_query($conn, $query);
         <div>
         <div class="row">
         <div class="col-md-4">
-		<form class="form-signin" method="POST" action="actionLogin.php">
+		<form class="form-signin" method="POST" action="login.php">
                 <h2 class="form-signin-heading">Please sign in</h2>
                 <label for="inputEmail" class="text-info">Email address</label>
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>

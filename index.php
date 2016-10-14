@@ -1,4 +1,11 @@
 <?php
+session_start();
+
+if (!isset($_SESSION['user']) || $_SESSION['authenticated'] == false) {
+
+ header("location: adminLogin.php");
+
+}
 
 $servername = "localhost";
 $username = "root"; //Eneter Username for ESSCC Earthquake DB

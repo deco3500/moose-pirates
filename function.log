@@ -658,3 +658,1059 @@
 02:11:2262SEE IT: South Carolina cops wear superhero shirts for Batman-obsessed first-grader killed in Townville Elementary School shooting
 02:11:2262‘Batman: Arkham VR’ features an hourlong campaign with limited extras
 02:11:2262J.K. Simmons Talks His $6.8 Billion Box Office Career, 'The Late Bloomer' And 'The Batman' Secrets
+01:43:2797Array
+(
+    [_type] => News
+    [readLink] => https://api.cognitive.microsoft.com/api/v5/news/search?q=rabbit
+    [totalEstimatedMatches] => 438000
+    [value] => Array
+        (
+            [0] => Array
+                (
+                    [name] => New York City’s 'Dead Rabbit' tops list as best bar in the world
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=eH-bCKFwZC532nsxuNqjcHjIA9GLxV7QHAG1gg3bTBI&v=1&r=http%3a%2f%2fwww.foxnews.com%2ftravel%2f2016%2f10%2f13%2fnew-yorks-dead-rabbit-tops-list-as-best-bar-in-world.html&p=DevEx,5014.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.6B8013A576D33F0ECC0DC4579FF5EDFF&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => It's official. New York City and London are the best places in the world to have a drink. Drinks International just released its annual ranking of the world’s 50 best bars and two cities have more than enough pints, pubs and craft cocktails to keep ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/60d5dc2b-c915-460b-b722-c9e3485499ca
+                                    [name] => New York City
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee
+                                    [name] => World
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/273e0477-30ed-3993-f232-f39244306805
+                                    [name] => Fox News Channel
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => FOX News
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:59:00
+                )
+
+            [1] => Array
+                (
+                    [name] => Rabbit Hash General Store rises from the ashes
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=zmQ1gmwFcXmx1KVr6Yq87NJ-k8q4aN7LK0VuEfMu-70&v=1&r=http%3a%2f%2fwww.wlwt.com%2farticle%2frabbit-hash-general-store-rises-from-the-ashes%2f5958721&p=DevEx,5016.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.C43F9B7FC116A607DCFA1D72D4A34C25&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => WEBVTT FORT TO BRING A HISTORIC LANDMARK BACK TO LIFE. LISA: THIS PROJECT IS EXTREMELY UNIQUE AND THEY WANT TO BE CLEAR HERE THIS IS NOT REBUILDING THIS IS RESTORATION. THERE ARE HISTORICAL SOCIETY GUIDELINES TO FOLLOW. THE WOOD WAS SALVAGED FROM THIS VERY ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/519cf8b2-6557-ffe7-0255-3accf30dcb19
+                                    [name] => Rabbit Hash
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => WLWT 5
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:53:00
+                )
+
+            [2] => Array
+                (
+                    [name] => An Inside Look At Two “Unrelated” Banker Suicides Reveals A Fascinating Rabbit Hole
+                    [url] => https://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=gNw2O8GpyDyLPQU3c9F6k6Iq9DRLTkJ9SiAqFIioTRY&v=1&r=https%3a%2f%2ftheinternationalreporter.org%2f2016%2f10%2f14%2fan-inside-look-at-two-unrelated-banker-suicides-reveals-a-fascinating-rabbit-hole%2f&p=DevEx,5018.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.DAFF5C933564CAB02E51CA3C8D047D6E&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => What is fascinating, is not only how interconnected the fates of Deutsche Bank and Monte Paschi have been over the years – two banks that have each seen a dramatic, high ranking suicide in recent years – but also how far the political process has ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/c7f744ab-0c08-7e15-8dd0-b12b50f8d188
+                                    [name] => Unrelated
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/4904da29-4b21-18de-16d5-562d9426bc5c
+                                    [name] => Suicide
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/472a8dae-f5f3-48f9-51dc-05a654abbbed
+                                    [name] => Bank
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => theinternationalreporter.org
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T05:32:00
+                )
+
+            [3] => Array
+                (
+                    [name] => Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=SmrC5YzAlBDy1jtuf8eA2pCnWKgU44_u_gMiywWovxA&v=1&r=http%3a%2f%2fwww.delmartimes.net%2flifestyle%2fsd-cm-nc-rabbit-volunteer-20161013-story.html&p=DevEx,5020.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.72FDD2C29052A8EB9E5ECF100219B934&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => Three years ago, Melanie Limas An — then a seventh-grader at Carmel Valley Middle School but already interested in media — saw in an email from the San Diego House Rabbit Society that the organization was soliciting for a volunteer videographer.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/0f2f26e5-4948-926a-84ac-86961a70dabf
+                                    [name] => Carmel Valley
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/b61180f2-ead9-5f6f-6b65-3f138997bfe7
+                                    [name] => Del Mar
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Del Mar Times
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:32:00
+                )
+
+            [4] => Array
+                (
+                    [name] => Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=NQhPyMdvTj0fE-cBhhAzJM4pihQWV89Nx3FlvfFfUp0&v=1&r=http%3a%2f%2fwwd.com%2feye%2fpeople%2fsleigh-bells-alexis-krauss-talks-jessica-rabbit-demi-lovato-10658123%2f&p=DevEx,5022.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.D6CE8050E59F9EF0BB5363183583C542&pid=News
+                                    [width] => 640
+                                    [height] => 415
+                                )
+
+                        )
+
+                    [description] => Jessica Rabbit is one of pop culture’s most celebrated sex symbols. She oozes. She slinks. She seduces. And she’s not even real. The “Who Framed Roger Rabbit” character has inspired many, including Heidi Klum, who recruited a prosthetics artist to ...
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Women's Wear Daily
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T12:48:00
+                )
+
+            [5] => Array
+                (
+                    [name] => Black Rabbit Shot Co.
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=8a24iQzAuy5deVzEQczgr6Mxw2xuz4qPoqLuzEp768w&v=1&r=http%3a%2f%2fwww.designmynight.com%2fliverpool%2fbars%2fblack-rabbit-shot-co&p=DevEx,5024.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.78D71790C40CE9B5499A6216E46A1B57&pid=News
+                                    [width] => 620
+                                    [height] => 413
+                                )
+
+                        )
+
+                    [description] => When it comes to heading out for a night in Concert Square, there's one bar on the party roster that's not to be missed. Littered with subtle neons, supported by an island bar and promising plenty of booths, Black Rabbit Shot Co. is trendy, casual and cool.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/672fd4b8-1fd3-fdcc-210f-53a0470ab53b
+                                    [name] => Bar, Corrèze
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/a5642e81-20ab-a561-17cc-52a63926b210
+                                    [name] => Liverpool
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => www.designmynight.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T04:48:00
+                )
+
+            [6] => Array
+                (
+                    [name] => Dancing Rabbit hopes to attract guests with newly renovated course
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=OHobL-hzFDSg9qTK0bT7_tlVGWGp_zMKAhrXWwQnckA&v=1&r=http%3a%2f%2fwww.wtok.com%2fcontent%2fnews%2fDancing-Rabbit-hopes-to-attract-guests-with-newly-renovated-course-397000081.html&p=DevEx,5026.1
+                    [description] => Dancing Rabbit has made improvements for golfers. The club has spent three months renovating the Azaleas course. "We took out a few trees," says Mark Powell, director of golf. "We worked on some creeks. We rebuilt some bridges. We rebuilt some bunkers.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/95cdcf9c-ef2e-a910-35e2-6fa1f1f0f98f
+                                    [name] => Dancing Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => News Center ABC 11 WTOK
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T21:06:00
+                )
+
+            [7] => Array
+                (
+                    [name] => Rabbit Air MinusA2 review :
+                    [url] => http://www.bing.com/cr?IG=0FB189987CBB4069AE7CB342B5C590E0&CID=26A9D282AD4D6FBB00EFDB2CAC5F6EC5&rd=1&h=7SSxORi8xtzkafdD1ogt4NpqhkjXJjDwFr0pnnQBL5A&v=1&r=http%3a%2f%2fwww.airpurifiersrating.com%2frabbit-air-minusa2-review%2f&p=DevEx,5028.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.5C6F63FB7F14AD8CC407FAF676790D7E&pid=News
+                                    [width] => 700
+                                    [height] => 437
+                                )
+
+                        )
+
+                    [description] => Rabbit Air MinusA2 air purifiers include SPA-780A and SPA-700A, are designed to adapt to and complement any space. For a flash of color, decorate with one of our Artists Series front panels, or conserve floor space by hanging your unit on the wall.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => airpurifiersrating.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T13:02:00
+                )
+
+        )
+
+)
+
+01:43:27103New York City’s 'Dead Rabbit' tops list as best bar in the world
+01:43:27103Rabbit Hash General Store rises from the ashes
+01:43:27103An Inside Look At Two “Unrelated” Banker Suicides Reveals A Fascinating Rabbit Hole
+01:43:27103Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+01:43:27103Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+01:43:27103Black Rabbit Shot Co.
+01:43:27103Dancing Rabbit hopes to attract guests with newly renovated course
+01:43:27103Rabbit Air MinusA2 review :
+01:47:1897Array
+(
+    [_type] => News
+    [readLink] => https://api.cognitive.microsoft.com/api/v5/news/search?q=rabbit
+    [totalEstimatedMatches] => 435000
+    [value] => Array
+        (
+            [0] => Array
+                (
+                    [name] => New York City’s 'Dead Rabbit' tops list as best bar in the world
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=eH-bCKFwZC532nsxuNqjcHjIA9GLxV7QHAG1gg3bTBI&v=1&r=http%3a%2f%2fwww.foxnews.com%2ftravel%2f2016%2f10%2f13%2fnew-yorks-dead-rabbit-tops-list-as-best-bar-in-world.html&p=DevEx,5025.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.6B8013A576D33F0ECC0DC4579FF5EDFF&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => It's official. New York City and London are the best places in the world to have a drink. Drinks International just released its annual ranking of the world’s 50 best bars and two cities have more than enough pints, pubs and craft cocktails to keep ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/60d5dc2b-c915-460b-b722-c9e3485499ca
+                                    [name] => New York City
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee
+                                    [name] => World
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/273e0477-30ed-3993-f232-f39244306805
+                                    [name] => Fox News Channel
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => FOX News
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:59:00
+                )
+
+            [1] => Array
+                (
+                    [name] => Rabbit Hash General Store rises from the ashes
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=zmQ1gmwFcXmx1KVr6Yq87NJ-k8q4aN7LK0VuEfMu-70&v=1&r=http%3a%2f%2fwww.wlwt.com%2farticle%2frabbit-hash-general-store-rises-from-the-ashes%2f5958721&p=DevEx,5027.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.C43F9B7FC116A607DCFA1D72D4A34C25&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => WEBVTT FORT TO BRING A HISTORIC LANDMARK BACK TO LIFE. LISA: THIS PROJECT IS EXTREMELY UNIQUE AND THEY WANT TO BE CLEAR HERE THIS IS NOT REBUILDING THIS IS RESTORATION. THERE ARE HISTORICAL SOCIETY GUIDELINES TO FOLLOW. THE WOOD WAS SALVAGED FROM THIS VERY ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/519cf8b2-6557-ffe7-0255-3accf30dcb19
+                                    [name] => Rabbit Hash
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => WLWT 5
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:53:00
+                )
+
+            [2] => Array
+                (
+                    [name] => An Inside Look At Two “Unrelated” Banker Suicides Reveals A Fascinating Rabbit Hole
+                    [url] => https://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=gNw2O8GpyDyLPQU3c9F6k6Iq9DRLTkJ9SiAqFIioTRY&v=1&r=https%3a%2f%2ftheinternationalreporter.org%2f2016%2f10%2f14%2fan-inside-look-at-two-unrelated-banker-suicides-reveals-a-fascinating-rabbit-hole%2f&p=DevEx,5029.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.DAFF5C933564CAB02E51CA3C8D047D6E&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => What is fascinating, is not only how interconnected the fates of Deutsche Bank and Monte Paschi have been over the years – two banks that have each seen a dramatic, high ranking suicide in recent years – but also how far the political process has ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/c7f744ab-0c08-7e15-8dd0-b12b50f8d188
+                                    [name] => Unrelated
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/4904da29-4b21-18de-16d5-562d9426bc5c
+                                    [name] => Suicide
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/472a8dae-f5f3-48f9-51dc-05a654abbbed
+                                    [name] => Bank
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => theinternationalreporter.org
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T05:32:00
+                )
+
+            [3] => Array
+                (
+                    [name] => Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=SmrC5YzAlBDy1jtuf8eA2pCnWKgU44_u_gMiywWovxA&v=1&r=http%3a%2f%2fwww.delmartimes.net%2flifestyle%2fsd-cm-nc-rabbit-volunteer-20161013-story.html&p=DevEx,5031.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.72FDD2C29052A8EB9E5ECF100219B934&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => Three years ago, Melanie Limas An — then a seventh-grader at Carmel Valley Middle School but already interested in media — saw in an email from the San Diego House Rabbit Society that the organization was soliciting for a volunteer videographer.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/0f2f26e5-4948-926a-84ac-86961a70dabf
+                                    [name] => Carmel Valley
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/b61180f2-ead9-5f6f-6b65-3f138997bfe7
+                                    [name] => Del Mar
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Del Mar Times
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:32:00
+                )
+
+            [4] => Array
+                (
+                    [name] => Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=NQhPyMdvTj0fE-cBhhAzJM4pihQWV89Nx3FlvfFfUp0&v=1&r=http%3a%2f%2fwwd.com%2feye%2fpeople%2fsleigh-bells-alexis-krauss-talks-jessica-rabbit-demi-lovato-10658123%2f&p=DevEx,5033.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.D6CE8050E59F9EF0BB5363183583C542&pid=News
+                                    [width] => 640
+                                    [height] => 415
+                                )
+
+                        )
+
+                    [description] => Jessica Rabbit is one of pop culture’s most celebrated sex symbols. She oozes. She slinks. She seduces. And she’s not even real. The “Who Framed Roger Rabbit” character has inspired many, including Heidi Klum, who recruited a prosthetics artist to ...
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Women's Wear Daily
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T12:48:00
+                )
+
+            [5] => Array
+                (
+                    [name] => Black Rabbit Shot Co.
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=8a24iQzAuy5deVzEQczgr6Mxw2xuz4qPoqLuzEp768w&v=1&r=http%3a%2f%2fwww.designmynight.com%2fliverpool%2fbars%2fblack-rabbit-shot-co&p=DevEx,5035.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.78D71790C40CE9B5499A6216E46A1B57&pid=News
+                                    [width] => 620
+                                    [height] => 413
+                                )
+
+                        )
+
+                    [description] => When it comes to heading out for a night in Concert Square, there's one bar on the party roster that's not to be missed. Littered with subtle neons, supported by an island bar and promising plenty of booths, Black Rabbit Shot Co. is trendy, casual and cool.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/672fd4b8-1fd3-fdcc-210f-53a0470ab53b
+                                    [name] => Bar, Corrèze
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/a5642e81-20ab-a561-17cc-52a63926b210
+                                    [name] => Liverpool
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => www.designmynight.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T04:48:00
+                )
+
+            [6] => Array
+                (
+                    [name] => Dancing Rabbit hopes to attract guests with newly renovated course
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=OHobL-hzFDSg9qTK0bT7_tlVGWGp_zMKAhrXWwQnckA&v=1&r=http%3a%2f%2fwww.wtok.com%2fcontent%2fnews%2fDancing-Rabbit-hopes-to-attract-guests-with-newly-renovated-course-397000081.html&p=DevEx,5037.1
+                    [description] => Dancing Rabbit has made improvements for golfers. The club has spent three months renovating the Azaleas course. "We took out a few trees," says Mark Powell, director of golf. "We worked on some creeks. We rebuilt some bridges. We rebuilt some bunkers.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/95cdcf9c-ef2e-a910-35e2-6fa1f1f0f98f
+                                    [name] => Dancing Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => News Center ABC 11 WTOK
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T21:06:00
+                )
+
+            [7] => Array
+                (
+                    [name] => Rabbit Air MinusA2 review :
+                    [url] => http://www.bing.com/cr?IG=B84820C88325474DA744CDD232CF09CF&CID=0D6C6B75A4ED6A3E323A62DBA5FF6BCC&rd=1&h=7SSxORi8xtzkafdD1ogt4NpqhkjXJjDwFr0pnnQBL5A&v=1&r=http%3a%2f%2fwww.airpurifiersrating.com%2frabbit-air-minusa2-review%2f&p=DevEx,5039.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.5C6F63FB7F14AD8CC407FAF676790D7E&pid=News
+                                    [width] => 700
+                                    [height] => 437
+                                )
+
+                        )
+
+                    [description] => Rabbit Air MinusA2 air purifiers include SPA-780A and SPA-700A, are designed to adapt to and complement any space. For a flash of color, decorate with one of our Artists Series front panels, or conserve floor space by hanging your unit on the wall.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => airpurifiersrating.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T13:02:00
+                )
+
+        )
+
+)
+
+01:47:18103New York City’s 'Dead Rabbit' tops list as best bar in the world
+01:47:18103Rabbit Hash General Store rises from the ashes
+01:47:18103An Inside Look At Two “Unrelated” Banker Suicides Reveals A Fascinating Rabbit Hole
+01:47:18103Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+01:47:18103Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+01:47:18103Black Rabbit Shot Co.
+01:47:18103Dancing Rabbit hopes to attract guests with newly renovated course
+01:47:18103Rabbit Air MinusA2 review :
+01:50:29104Array
+(
+    [_type] => News
+    [readLink] => https://api.cognitive.microsoft.com/api/v5/news/search?q=rabbit
+    [totalEstimatedMatches] => 428000
+    [value] => Array
+        (
+            [0] => Array
+                (
+                    [name] => New York City’s 'Dead Rabbit' tops list as best bar in the world
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=eH-bCKFwZC532nsxuNqjcHjIA9GLxV7QHAG1gg3bTBI&v=1&r=http%3a%2f%2fwww.foxnews.com%2ftravel%2f2016%2f10%2f13%2fnew-yorks-dead-rabbit-tops-list-as-best-bar-in-world.html&p=DevEx,5025.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.6B8013A576D33F0ECC0DC4579FF5EDFF&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => It's official. New York City and London are the best places in the world to have a drink. Drinks International just released its annual ranking of the world’s 50 best bars and two cities have more than enough pints, pubs and craft cocktails to keep ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/60d5dc2b-c915-460b-b722-c9e3485499ca
+                                    [name] => New York City
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ddb7c000-f710-87a0-dfc6-763c39ac30ee
+                                    [name] => World
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/273e0477-30ed-3993-f232-f39244306805
+                                    [name] => Fox News Channel
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => FOX News
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:59:00
+                )
+
+            [1] => Array
+                (
+                    [name] => Rabbit Hash General Store rises from the ashes
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=zmQ1gmwFcXmx1KVr6Yq87NJ-k8q4aN7LK0VuEfMu-70&v=1&r=http%3a%2f%2fwww.wlwt.com%2farticle%2frabbit-hash-general-store-rises-from-the-ashes%2f5958721&p=DevEx,5027.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.C43F9B7FC116A607DCFA1D72D4A34C25&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => WEBVTT FORT TO BRING A HISTORIC LANDMARK BACK TO LIFE. LISA: THIS PROJECT IS EXTREMELY UNIQUE AND THEY WANT TO BE CLEAR HERE THIS IS NOT REBUILDING THIS IS RESTORATION. THERE ARE HISTORICAL SOCIETY GUIDELINES TO FOLLOW. THE WOOD WAS SALVAGED FROM THIS VERY ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/519cf8b2-6557-ffe7-0255-3accf30dcb19
+                                    [name] => Rabbit Hash
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => WLWT 5
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:53:00
+                )
+
+            [2] => Array
+                (
+                    [name] => An Inside Look At Two "Unrelated" Banker Suicides Reveals A Fascinating Rabbit Hole
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=NfhAwCv79zkdbzY3HolH2cdaFIKpte6_GTM-RtDD_Jc&v=1&r=http%3a%2f%2fwww.zerohedge.com%2fnews%2f2016-10-13%2finside-look-two-most-fascinating-banker-suicides-reveals-how-deep-rabbit-hole-truly-&p=DevEx,5029.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.F04A0FC6212D69602C5FF7DA45A68C82&pid=News
+                                    [width] => 500
+                                    [height] => 309
+                                )
+
+                        )
+
+                    [description] => It has been nearly four years since one of the most infamous, and still largely unexplained, banker "suicides" took place, the first in a series of many: we are talking about the death of the director of communications at Monte dei Paschi di Siena, David ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/7dfd1016-4ba2-912f-9de9-ea4d31b8c379
+                                    [name] => Rabbit Hole
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/4904da29-4b21-18de-16d5-562d9426bc5c
+                                    [name] => Suicide
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/472a8dae-f5f3-48f9-51dc-05a654abbbed
+                                    [name] => Bank
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => zerohedge.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T05:31:00
+                )
+
+            [3] => Array
+                (
+                    [name] => Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=SmrC5YzAlBDy1jtuf8eA2pCnWKgU44_u_gMiywWovxA&v=1&r=http%3a%2f%2fwww.delmartimes.net%2flifestyle%2fsd-cm-nc-rabbit-volunteer-20161013-story.html&p=DevEx,5031.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.72FDD2C29052A8EB9E5ECF100219B934&pid=News
+                                    [width] => 700
+                                    [height] => 393
+                                )
+
+                        )
+
+                    [description] => Three years ago, Melanie Limas An — then a seventh-grader at Carmel Valley Middle School but already interested in media — saw in an email from the San Diego House Rabbit Society that the organization was soliciting for a volunteer videographer.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/0f2f26e5-4948-926a-84ac-86961a70dabf
+                                    [name] => Carmel Valley
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/b61180f2-ead9-5f6f-6b65-3f138997bfe7
+                                    [name] => Del Mar
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Del Mar Times
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T22:32:00
+                )
+
+            [4] => Array
+                (
+                    [name] => Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=NQhPyMdvTj0fE-cBhhAzJM4pihQWV89Nx3FlvfFfUp0&v=1&r=http%3a%2f%2fwwd.com%2feye%2fpeople%2fsleigh-bells-alexis-krauss-talks-jessica-rabbit-demi-lovato-10658123%2f&p=DevEx,5033.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.D6CE8050E59F9EF0BB5363183583C542&pid=News
+                                    [width] => 640
+                                    [height] => 415
+                                )
+
+                        )
+
+                    [description] => Jessica Rabbit is one of pop culture’s most celebrated sex symbols. She oozes. She slinks. She seduces. And she’s not even real. The “Who Framed Roger Rabbit” character has inspired many, including Heidi Klum, who recruited a prosthetics artist to ...
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => Women's Wear Daily
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T12:48:00
+                )
+
+            [5] => Array
+                (
+                    [name] => Black Rabbit Shot Co.
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=8a24iQzAuy5deVzEQczgr6Mxw2xuz4qPoqLuzEp768w&v=1&r=http%3a%2f%2fwww.designmynight.com%2fliverpool%2fbars%2fblack-rabbit-shot-co&p=DevEx,5035.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.78D71790C40CE9B5499A6216E46A1B57&pid=News
+                                    [width] => 620
+                                    [height] => 413
+                                )
+
+                        )
+
+                    [description] => When it comes to heading out for a night in Concert Square, there's one bar on the party roster that's not to be missed. Littered with subtle neons, supported by an island bar and promising plenty of booths, Black Rabbit Shot Co. is trendy, casual and cool.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/672fd4b8-1fd3-fdcc-210f-53a0470ab53b
+                                    [name] => Bar, Corrèze
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/a5642e81-20ab-a561-17cc-52a63926b210
+                                    [name] => Liverpool
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => www.designmynight.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-14T04:48:00
+                )
+
+            [6] => Array
+                (
+                    [name] => Dancing Rabbit hopes to attract guests with newly renovated course
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=OHobL-hzFDSg9qTK0bT7_tlVGWGp_zMKAhrXWwQnckA&v=1&r=http%3a%2f%2fwww.wtok.com%2fcontent%2fnews%2fDancing-Rabbit-hopes-to-attract-guests-with-newly-renovated-course-397000081.html&p=DevEx,5037.1
+                    [description] => Dancing Rabbit has made improvements for golfers. The club has spent three months renovating the Azaleas course. "We took out a few trees," says Mark Powell, director of golf. "We worked on some creeks. We rebuilt some bridges. We rebuilt some bunkers.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/95cdcf9c-ef2e-a910-35e2-6fa1f1f0f98f
+                                    [name] => Dancing Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => News Center ABC 11 WTOK
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T21:06:00
+                )
+
+            [7] => Array
+                (
+                    [name] => Rabbit Air MinusA2 review :
+                    [url] => http://www.bing.com/cr?IG=F26A278FF8BB486997816B17A7585623&CID=206053F0AF296D2712685A5EAE3B6C13&rd=1&h=7SSxORi8xtzkafdD1ogt4NpqhkjXJjDwFr0pnnQBL5A&v=1&r=http%3a%2f%2fwww.airpurifiersrating.com%2frabbit-air-minusa2-review%2f&p=DevEx,5039.1
+                    [image] => Array
+                        (
+                            [thumbnail] => Array
+                                (
+                                    [contentUrl] => https://www.bing.com/th?id=ON.5C6F63FB7F14AD8CC407FAF676790D7E&pid=News
+                                    [width] => 700
+                                    [height] => 437
+                                )
+
+                        )
+
+                    [description] => Rabbit Air MinusA2 air purifiers include SPA-780A and SPA-700A, are designed to adapt to and complement any space. For a flash of color, decorate with one of our Artists Series front panels, or conserve floor space by hanging your unit on the wall.
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/941c0145-5b6b-4935-1840-ad7214b5ec77
+                                    [name] => Rabbit
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => airpurifiersrating.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-13T13:02:00
+                )
+
+        )
+
+)
+
+01:50:29110New York City’s 'Dead Rabbit' tops list as best bar in the world
+01:50:29110Rabbit Hash General Store rises from the ashes
+01:50:29110An Inside Look At Two "Unrelated" Banker Suicides Reveals A Fascinating Rabbit Hole
+01:50:29110Carmel Valley teen is Rabbit Society’s Volunteer of the Year
+01:50:29110Alexis Krauss of Sleigh Bells on ‘Jessica Rabbit’ and the Band’s Demi Lovato Lawsuit
+01:50:29110Black Rabbit Shot Co.
+01:50:29110Dancing Rabbit hopes to attract guests with newly renovated course
+01:50:29110Rabbit Air MinusA2 review :

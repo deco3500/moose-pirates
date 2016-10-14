@@ -1,5 +1,13 @@
 <?php
 ini_set('display_errors', 'Off');
+
+session_start();
+
+if (!isset($_SESSION['user']) || $_SESSION['authenticated'] == false) {
+
+ header("location: adminLogin.php");
+
+}
 $status = isset($_GET['status']) ? $_GET['status'] : '';
 ?>
 <!doctype html>
