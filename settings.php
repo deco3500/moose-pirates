@@ -16,10 +16,14 @@ $status = isset($_GET['status']) ? $_GET['status'] : '';
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">Moose Pirates</a>
-      
+    <div class="header_logo" id="logo">
+					<a href="index.php">
+						<img src="image/moose_news.png" class="img-responsive"  alt="Moose Pirates" style="height:75px">
+						</a>
+				</div>
     </div>
-       <div class="navbar-header" style="text-align: right;">
+    </div>
+       <div class="navbar-header navbar-right">
       <a class="navbar-brand" href="settings.php"><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
     </div>
  </div>

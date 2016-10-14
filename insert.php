@@ -25,7 +25,7 @@ $result = mysqli_query($conn, $query);
     		$error = mysqli_error($conn);
     	header("location: settings.php?status=error&message=". urlencode($error) ."");
     	}
-    	$message = "Keyword Succsfully Set";
+    	$message = "Keyword Set";
     	header("location: settings.php?status=success&message=". urlencode($message) ."");
 		
 ?>

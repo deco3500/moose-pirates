@@ -71,10 +71,13 @@ $request->setBody("{body}");
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">Moose Pirates</a>
-      
+    <div class="header_logo" id="logo">
+					<a href="index.php">
+						<img src="image/moose_news.png" class="img-responsive"  alt="Moose Pirates" style="height:75px">
+						</a>
+				</div>
     </div>
-       <div class="navbar-header" style="text-align: right;">
+       <div class="navbar-header navbar-right" >
       <a class="navbar-brand" href="settings.php"><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
     </div>
  </div>
@@ -111,13 +114,13 @@ $request->setBody("{body}");
         
 		</div>
         <div class="col-md-2">
-        	<a href="http://wwww.facebook.com"><div id="facebook" class="tile">
+        	<a href="http://www.facebook.com"><div id="facebook" class="tile">
             Facebook
 			</div></a>  
-            <a href="http://wwww.youtube.com"><div id="youtube" class="tile">
+            <a href="http://www.youtube.com"><div id="youtube" class="tile">
             Youtube
 			</div></a>
-            <a href="http://wwww.google.com"><div id="google" class="tile">
+            <a href="http://www.google.com"><div id="google" class="tile">
             Google
 			</div></a>
             <a href="http://www.imdb.com"><div id="imdb" class="tile">
