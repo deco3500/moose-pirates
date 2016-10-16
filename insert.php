@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 $servername = "localhost";
 $username = "root"; //Eneter Username for ESSCC Earthquake DB
@@ -17,7 +18,16 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 
 $keyword = $_POST['keyword'];
 
-$query = "UPDATE user_keywords SET keyword = '" . $keyword . "'where id = 1";
+$query2 = "Select id from users where email = '". $_SESSION['user']."'";
+
+$result2 = mysqli_query($conn, $query2);
+
+
+while ($row = mysqli_fetch_assoc($result2)) {
+$query = "INSERT INTO user_keywords VALUES (  '" . $keyword . "' , ". $row['id'].")";
+
+}
+
 
 $result = mysqli_query($conn, $query);
 

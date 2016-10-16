@@ -22,9 +22,16 @@ if ($conn->connect_error) {
 }
 mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 
+$query2 = "Select id from users where email = '". $_SESSION['user']."'";
 
+$result2 = mysqli_query($conn, $query2);
 
-$query = "Select keyword from user_keywords where id = 1";
+$request = NULL;
+
+while ($row = mysqli_fetch_assoc($result2)) {
+$query = "Select keyword from user_keywords where id = ". $row['id']."";
+
+}
 
 $result = mysqli_query($conn, $query);
 
@@ -59,6 +66,7 @@ $request->setMethod(HTTP_Request2::METHOD_GET);
 // Request body
 $request->setBody("{body}");
 }
+
 
 
 ?>
@@ -99,16 +107,20 @@ $request->setBody("{body}");
 		
 		try
 		{
+		if ($request == NULL){
+			echo "please set keywords in settings";
+		}
+		else{
 		$response = $request->send();
 		$news = json_decode ($response->getBody(), 1);
-		file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($news  , true) . "\n", FILE_APPEND);
+		
 			foreach ($news['value'] as $acc) {
 				echo "<div class='col-md-3 center'>";
                 echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='200' width='200' </img>";
 				echo  "<p><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></p>";
 				echo "</div>";
-			    file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($acc['name']  , true) . "\n", FILE_APPEND);
 
+			}
 				}
 		}
 		catch (HttpException $ex)
