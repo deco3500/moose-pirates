@@ -1,3 +1,836 @@
-20:47:263sambuck19@gmail.com
-20:49:083sambuck19@gmail.com
-20:51:3335
+23:35:0121jedi
+23:35:0127
+23:39:4021hungry
+23:39:40271
+23:39:5521space
+23:39:55271
+23:40:2131
+23:41:01117Array
+(
+    [name] => A Face So Smug It’s Punchable
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=t8dENqIePpuK3grVNaTEV5mu3KniNQPZLgp97HYZ2i0&v=1&r=http%3a%2f%2fiotwreport.com%2fa-face-so-smug-its-punchable%2f&p=DevEx,5025.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.07B312AA1CB999313B6FB12F9DCB0AF0&pid=News
+                    [width] => 300
+                    [height] => 168
+                )
+
+        )
+
+    [description] => See this creep? Not the freak show in the foreground with the dog collar, the little a*hole with the yellow cap and flannel shirt just peaking over the shoulder to the right. Lauren Southern was assaulted by black-lipped weirdo. When the police came ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/23a52ac4-36b2-d55e-a3e8-53d5a50eace5
+                    [name] => Face
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => iotwreport.com
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T03:36:00
+)
+
+23:41:01117Array
+(
+    [name] => Burn 'Chitta Ravan' with Badal's face: Capt to cadre
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=J3XhnzDR4CFu3imd5vUk6pt9bu8UKhhdKa-rIK630ec&v=1&r=http%3a%2f%2ftimesofindia.indiatimes.com%2fcity%2fchandigarh%2fBurn-Chitta-Ravan-with-Badals-face-Capt-to-cadre%2farticleshow%2f54889329.cms&p=DevEx,5027.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.1AC8308527983590E591B35C631800D9&pid=News
+                    [width] => 400
+                    [height] => 261
+                )
+
+        )
+
+    [description] => CHANDIGARH: Punjab Congress president Captain Amarinder Singh on Sunday asked his party workers to plaster Badal's face on effigies and set them on fire on Monday "without getting cowed down by attempts of the administration or police to forcibly prevent ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/e69508a8-30a7-9218-77b4-a65691e7895a
+                    [name] => Burn
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/a4fa0dd7-7227-2853-efb6-79ff512b6003
+                    [name] => Chitta
+                )
+
+            [2] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/7804fb2e-ea6c-f934-6dc5-c5bc671e2ba2
+                    [name] => The Times of India
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => Times of India
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T03:23:00
+    [category] => Politics
+)
+
+23:41:01117Array
+(
+    [name] => Pence: Russia should face 'severe consequences' if it's behind hack
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=9nebskGE17FLLXwtMT2OiqHdczuAzx9sIxTQL5ympzw&v=1&r=http%3a%2f%2fwww.businessinsider.com%2fr-pence-says-evidence-points-to-russia-in-email-hacks-2016-10&p=DevEx,5044.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.8E07ACCC0BA6251D0099EC8FA8AD02A8&pid=News
+                    [width] => 700
+                    [height] => 350
+                )
+
+        )
+
+    [description] => U.S Republican Vice Presidential candidate Mike Pence speaks during a campaign event at the Des Moines Area Community College in Newton, Iowa Thomson Reuters Republican vice presidential candidate Mike Pence said evidence implicates Russia in recent email ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe
+                    [name] => Russia
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/3f781aec-0456-4b21-e84b-07d09cb035dd
+                    [name] => Mike Pence
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => The Business Insider
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T00:36:00
+    [category] => Politics
+    [clusteredArticles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Russia Should Face 'Severe Consequences' If It's Behind Hack: Mike Pence
+                    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=g0YXhZ4K4up7Fzv_jvML5IkVP4qA66M8vMRixgBIxKQ&v=1&r=http%3a%2f%2fwww.ndtv.com%2fworld-news%2frussia-should-face-severe-consequences-if-its-behind-hack-mike-pence-1475027&p=DevEx,5045.1
+                    [description] => WASHINGTON: Republican vice presidential candidate Mike Pence contradicted running mate Donald Trump on Sunday by saying evidence points to Russian involvement in email hacks tied to the US election and that Moscow should face "severe consequences" if it ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/3f781aec-0456-4b21-e84b-07d09cb035dd
+                                    [name] => Mike Pence
+                                )
+
+                            [1] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/23a52ac4-36b2-d55e-a3e8-53d5a50eace5
+                                    [name] => Face
+                                )
+
+                            [2] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ed4fce79-8ad4-352b-205b-e4db36c49bbe
+                                    [name] => Russia
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => NDTV
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-16T23:20:00
+                    [category] => Politics
+                )
+
+        )
+
+)
+
+23:41:01117Array
+(
+    [name] => Living as a Man, Fighting Breast Cancer: How Trans People Face Care Gaps
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=VrVsHA3iBkQ3S_m51qykdJY_3m5XYofGCoC7Ey-rKPk&v=1&r=http%3a%2f%2fwww.nytimes.com%2f2016%2f10%2f17%2fscience%2ftransgender-health-care-cancer.html&p=DevEx,5031.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.FB145AC595C4A027123044678967F6B2&pid=News
+                    [width] => 700
+                    [height] => 466
+                )
+
+        )
+
+    [description] => A diagnosis of breast cancer at age 27 is shattering for anyone. But for Eli Oberman, it came with extra layers of anxiety. He is a transgender man, who was born female but began taking male hormones when he was 19 to change gender. Like many transgender ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/5b561f69-a243-cc2c-feb5-03e4ddc86e29
+                    [name] => Living
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/f39c03fc-2d35-292e-b873-6dfd83818ce8
+                    [name] => Fighting
+                )
+
+            [2] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/3685c686-77e7-b898-f76e-09dcd9b20b0d
+                    [name] => Breast cancer
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => New York Times
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T01:32:00
+    [category] => Health
+)
+
+23:41:01117Array
+(
+    [name] => Chasson Randle broke his face
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=I9qcP3f7mdxtpc9c9zCmczGWBAW5FODe-MCdhNx8bzk&v=1&r=http%3a%2f%2fwww.postingandtoasting.com%2f2016%2f10%2f16%2f13298528%2fchasson-randle-broke-his-face&p=DevEx,5033.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.ADD6E665421E0ECDA7A0D5D5DA5C01D8&pid=News
+                    [width] => 700
+                    [height] => 393
+                )
+
+        )
+
+    [description] => What was previously deemed a facial contusion has now been tested, aaaaand unfortunately Chasson Randle cracked a bone in his face during practice: A CT scan on Chasson Randle last night confirmed a left orbital fracture. He will be re-evaluated by a ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/e682ba74-74f6-726d-1eae-f51b6607e1df
+                    [name] => Randle
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => Posting and Toasting
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T03:15:00
+    [category] => Sports
+)
+
+23:41:01117Array
+(
+    [name] => Stocks Face Threat as Globalization Loses Steam
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=IeuREJ-o06x4JxB6opcOJOzy1crcktl98gxWdy0tBy4&v=1&r=http%3a%2f%2fwww.wsj.com%2farticles%2fstocks-face-threat-as-globalization-loses-steam-1476644188&p=DevEx,5035.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.27E6DBC7FB297E779B8A881789E8F976&pid=News
+                    [width] => 553
+                    [height] => 369
+                )
+
+        )
+
+    [description] => LONDON—Every winter, senior managers at Barings gather at their central London office to iron out their 10-year investment forecast. On next year’s agenda for the $275 billion asset manager? Another haircut to what they call the “globalization ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/23a52ac4-36b2-d55e-a3e8-53d5a50eace5
+                    [name] => Face
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/70834f76-d913-bf85-87a6-b9386945a646
+                    [name] => The Wall Street Journal
+                )
+
+            [2] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/f9c0e23d-a6f9-0883-25bd-b3100f6133a8
+                    [name] => Globalization
+                )
+
+        )
+
+    [mentions] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Face
+                )
+
+            [1] => Array
+                (
+                    [name] => The Wall Street Journal
+                )
+
+            [2] => Array
+                (
+                    [name] => Globalization
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => The Wall Street Journal
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T02:56:00
+)
+
+23:41:01117Array
+(
+    [name] => Cam Newton, Panthers face long odds to return to playoffs after loss to Saints
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=lTIyl_ibBNGncts_BwrbPHYzKlEA4jYpNSijSBCSG_8&v=1&r=http%3a%2f%2fwww.espn.com%2fblog%2fcarolina-panthers%2fpost%2f_%2fid%2f22869%2fcam-newton-panthers-face-long-odds-to-return-to-playoffs-after-loss-to-saints&p=DevEx,5037.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.E4316ADF8CBCFD04592052AC2295D89C&pid=News
+                    [width] => 700
+                    [height] => 393
+                )
+
+        )
+
+    [description] => NEW ORLEANS -- The return of quarterback Cam Newton from the concussion protocol wasn’t enough to salvage the Carolina Panthers’ season. Newton did all he could, mind you, rallying the Panthers from a 21-0 deficit to knot the score at 38-38 with 2:58 ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/3ce7b95f-4792-9e79-89b5-2ca666a735fb
+                    [name] => Cam Newton
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/6e1c9bcb-a6dd-05c8-54e9-86361e106868
+                    [name] => New Orleans Saints
+                )
+
+            [2] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/085da3bd-8560-1638-8402-b77b0bb0e17c
+                    [name] => Face
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => ESPN
+                )
+
+        )
+
+    [datePublished] => 2016-10-16T22:49:00
+    [video] => Array
+        (
+            [name] => Lutz drills game-winning FG for Saints from 51 yards out (0:23)
+            [thumbnailUrl] => https://www.bing.com/th?id=ON.5252A271953C1BC749E58BBBDA2ACF21&pid=News
+            [allowHttpsEmbed] => 1
+            [thumbnail] => Array
+                (
+                    [width] => 480
+                    [height] => 269
+                )
+
+        )
+
+    [category] => Sports
+)
+
+23:41:01117Array
+(
+    [name] => Galle Face Hotel opens travel office
+    [url] => http://www.bing.com/cr?IG=771B9D0803264E2B87DEDF45E8BFCBC8&CID=09BEC5AD70BF6F34033CCC1C71AD6E51&rd=1&h=BnWIssv-lL2tE0qOd2Y4ZkzfXupIirW4_sDaY4Wf5Mw&v=1&r=http%3a%2f%2fwww.ttrweekly.com%2fsite%2f2016%2f10%2fgalle-face-hotel-opens-travel-office%2f&p=DevEx,5039.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.04F1E29C9A6857E496711AA9AA1E515C&pid=News
+                    [width] => 400
+                    [height] => 267
+                )
+
+        )
+
+    [description] => COLOMBO, 17 October 2016: One of the oldest hotels in Asia, Galle Face Hotel, is embracing travel planning with the opening of a travel office selling a suite of package holidays. The iconic 152-year-old hotel calls it a bold move calling its tour ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/27d271bf-307b-918b-bb28-6a40f9306f35
+                    [name] => Galle Face Hotel
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => TTR Wekly
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T03:21:00
+)
+
+23:41:01117Array
+(
+    [name] => 13 F-22 Raptor Stealth Fighters Shelter from Hurricane Hermine
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=58v3XhpLGRGlIV-_Z-UtUf3Yl550s__w3Ur0Y83p3Q8&v=1&r=http%3a%2f%2fwww.urbanghostsmedia.com%2f2016%2f10%2ff-22-raptors-hurricane-hermine%2f&p=DevEx,5021.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.67E740B4847FFEB87BE42E6D9F541A43&pid=News
+                    [width] => 700
+                    [height] => 525
+                )
+
+        )
+
+    [description] => At an eye-watering $138 million a piece, losing a Lockheed Martin F-22 Raptor, the US Air Force’s fifth-generation air superiority fighter, is a costly affair for the military (and sadly accidents have claimed several lives to date). But losing 13 of the ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/f8702188-b870-c0ef-a602-b8b0483add28
+                    [name] => Hurricane
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/c70beba1-42ce-bd96-4911-bc6621e0f508
+                    [name] => Stealth
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => urbanghostsmedia.com
+                )
+
+        )
+
+    [datePublished] => 2016-10-16T14:40:00
+    [category] => ScienceAndTechnology
+)
+
+23:41:01117Array
+(
+    [name] => How We’d Spec It: The 2017 Ford F-150 Raptor We’d Buy (Then Immediately Jump over Everything)
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=vUfz5z4Oxqx6ZgLH9qR0djxkSxs-iq8N4KmMhCwy0tI&v=1&r=http%3a%2f%2fblog.caranddriver.com%2fhow-wed-spec-it-the-2017-ford-f-150-raptor-wed-buy-then-immediately-jump-over-everything%2f&p=DevEx,5023.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.DE2D1F6051695988E96E504FA1EF6F27&pid=News
+                    [width] => 626
+                    [height] => 382
+                )
+
+        )
+
+    [description] => Ford’s second-generation F-150 Raptor looms. Quite literally—the truck could probably run us over and barely skip a beat. That aside, the Raptor’s proximity to Ford dealerships means that the online configurator for the mega-truck is live.
+    [mentions] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Car and Driver
+                )
+
+            [1] => Array
+                (
+                    [name] => Ford F-Series
+                )
+
+            [2] => Array
+                (
+                    [name] => Mercedes-Benz
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => CAR AND DRIVER
+                )
+
+        )
+
+    [datePublished] => 2016-10-07T16:14:00
+)
+
+23:41:01117Array
+(
+    [name] => First Ride: 2017 Ford F-150 Raptor
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=KHkfow3ZsuyM3kG37QH1rkYa1D1NMT-78vJZtjPLvuQ&v=1&r=http%3a%2f%2fwww.topspeed.com%2ftrucks%2ftruck-news%2ffirst-ride-2017-ford-f-150-raptor-ar174833.html&p=DevEx,5025.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.6EE6AB77CE0A067484D08C1F7B12B4FC&pid=News
+                    [width] => 180
+                    [height] => 120
+                )
+
+        )
+
+    [description] => Out of the 70-plus trucks and crossovers at the 2016 Truck Rodeo put on by the Texas Auto Writers Association, the 2017 Ford Raptor got the most attention. This event, after all, was the first time any journalist had access beyond static displays at auto ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/6d77f8c2-39bc-fb35-8888-82b0a4ea02df
+                    [name] => Top Speed
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => TopSpeed
+                )
+
+        )
+
+    [datePublished] => 2016-10-14T15:40:00
+)
+
+23:41:01117Array
+(
+    [name] => How Would You Order Your 2017 Ford F-150 SVT Raptor?
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=rpGxtwzvGUY4ZHLdnrbpMQqGN8T8HXe0gK0I0JnlqtE&v=1&r=http%3a%2f%2fwww.roadandtrack.com%2fnew-cars%2fnews%2fa31093%2fford-f-150-raptor-configurator%2f&p=DevEx,5042.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.94DF80D2DB16ADF8C121EDA4C50DAB74&pid=News
+                    [width] => 700
+                    [height] => 350
+                )
+
+        )
+
+    [description] => When Ford introduced the SVT Raptor back in 2010, its trick suspension and wider body made it an instant hit. The next year, it got a four-door version and a 6.2-liter V8 that only added to its popularity. Now, the second-generation Raptor is about to hit ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/ccb963a4-d7f0-89c0-f775-65b23430fc5c
+                    [name] => Configurator
+                )
+
+        )
+
+    [mentions] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Configurator
+                )
+
+            [1] => Array
+                (
+                    [name] => Ford F-Series
+                )
+
+            [2] => Array
+                (
+                    [name] => Pickup truck
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => Road & Track
+                )
+
+        )
+
+    [datePublished] => 2016-10-11T21:14:00
+    [clusteredArticles] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Head Raptor 130 RS LIKE NEW!!! $250
+                    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=q9Bl4q4dlKQ0uCiX7NCWxHtmgQQZ953XPD1QuMsQkcY&v=1&r=http%3a%2f%2fwww.geartrade.com%2fitem%2f492472%2fhead-raptor-130-rs-like-new-250&p=DevEx,5044.1
+                    [description] => This pair of Raptor boots has been on snow less than 20days and is in impeccable condition. The only thing missing is the original foot pad which should always be switched out for a custom bed or slip in version. Has a 4mm lift on it with extremely little ...
+                    [about] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/bfde06a5-c040-2791-7779-ac3934ad56d8
+                                    [name] => Serbia
+                                )
+
+                        )
+
+                    [provider] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [_type] => Organization
+                                    [name] => geartrade.com
+                                )
+
+                        )
+
+                    [datePublished] => 2016-10-10T21:08:00
+                )
+
+        )
+
+)
+
+23:41:01117Array
+(
+    [name] => Beijing sets free three birds of prey(1/4)
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=3zPXERRBjxkzsmCNODd38dhpDAn9OoudtY4w6KdROD0&v=1&r=http%3a%2f%2fwww.ecns.cn%2fvisual%2fhd%2f2016%2f10-17%2f108172.shtml&p=DevEx,5029.1
+    [description] => A rescued bird of prey is released into nature at a forest park in Beijing, Oct. 16, 2016. IFAW Beijing Raptor Rescue Center set free three raptors, which are all under second-class animal protection in China and found to be kept as pets illegally in the past.
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/e43bc499-902a-5deb-aced-aa4a247e6822
+                    [name] => Beijing
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => ECNS
+                )
+
+        )
+
+    [datePublished] => 2016-10-17T03:16:00
+)
+
+23:41:01117Array
+(
+    [name] => Raptor Giveaway – Shadow Warrior (Steam)
+    [url] => https://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=uI1awwzsvUaeT2rx0TQwvrYokscHfk9rF6WcZxsWd-Y&v=1&r=https%3a%2f%2ftechraptor.net%2fcontent%2fraptor-giveaway-shadow-warrior-steam&p=DevEx,5031.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.A59728332C7BF1B2A1FB465F867C9866&pid=News
+                    [width] => 700
+                    [height] => 393
+                )
+
+        )
+
+    [description] => Greetings and hello to everyone out there! We are in the thick of a busy October, with plenty happening in gaming everywhere you look. Around these parts, one of the bigger releases has been that of Shadow Warrior 2, which is developer Flying Wild Hog’s ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/c02301f7-a997-60a5-e11a-4393e0a10214
+                    [name] => Shadow Warrior
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/49132776-7391-746b-ddd5-588b744e68ab
+                    [name] => Steam
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => techraptor.net
+                )
+
+        )
+
+    [datePublished] => 2016-10-14T23:58:00
+    [category] => Entertainment
+)
+
+23:41:01117Array
+(
+    [name] => Jurassic Park Raptor Life Size Bust by Chronicle
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=arQmN67gXDxWSj_TMYM_g57RaYpywYJW1AdAjDzQDOY&v=1&r=http%3a%2f%2fnews.toyark.com%2f2016%2f10%2f12%2fjurassic-park-raptor-life-size-bust-chronicle-226754&p=DevEx,5033.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.F19D1B228A8B8EDB740CEF2F1ED5B04F&pid=News
+                    [width] => 700
+                    [height] => 255
+                )
+
+        )
+
+    [description] => Chronicle Collectibles will soon be offering their Jurassic Park Life Size Raptor Bust for pre-order. Beginning Friday, October 21st, fans will be able to pre-order this massive 1/1 scale bust. When originally shown at San Diego Comic-Con 2016, a Lost ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/f0b3fdc8-c275-938c-ff29-91d43221f3db
+                    [name] => Chronicle
+                )
+
+            [1] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/33dd72bb-580e-0b53-8643-e5753502ad31
+                    [name] => Jurassic Park
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => news.toyark.com
+                )
+
+        )
+
+    [datePublished] => 2016-10-12T11:57:00
+)
+
+23:41:01117Array
+(
+    [name] => Anyone Need a Life Size Jurassic Park Raptor Bust For Their Wall?
+    [url] => http://www.bing.com/cr?IG=B0D6143EA3584AD983ACDA72CEB5276A&CID=3A72B162F26168372993B8D3F3736944&rd=1&h=wDNlJ1-r-Lkz2yWtg9LwAfuWn0wN-Fks481y9rWKmO4&v=1&r=http%3a%2f%2fwww.actionfigurefury.com%2fchronicle-life-size-jurassic-park-raptor-bust%2f&p=DevEx,5035.1
+    [image] => Array
+        (
+            [thumbnail] => Array
+                (
+                    [contentUrl] => https://www.bing.com/th?id=ON.C891B0D2EF033B93FE9AB3ACB9906D22&pid=News
+                    [width] => 700
+                    [height] => 424
+                )
+
+        )
+
+    [description] => The pre-order period for this life size Jurassic Park raptor bust starts next Friday. When I saw the original Jurassic Park in theaters in 1993, I was 12 years old. I had a pounding headache and directly after exiting the theater, I threw up in the gutter ...
+    [about] => Array
+        (
+            [0] => Array
+                (
+                    [readLink] => https://api.cognitive.microsoft.com/api/v5/entities/33dd72bb-580e-0b53-8643-e5753502ad31
+                    [name] => Jurassic Park
+                )
+
+        )
+
+    [provider] => Array
+        (
+            [0] => Array
+                (
+                    [_type] => Organization
+                    [name] => actionfigurefury.com
+                )
+
+        )
+
+    [datePublished] => 2016-10-13T22:01:00
+)
+

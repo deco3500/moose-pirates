@@ -1,31 +1,8 @@
 /* CSS Document */
 
-.tile{
-	height:200px;
-	text-align:center;
-	padding-top: 100px;
-}
-
-#facebook{
-	background-color:blue;
-	color: white;
+.news_tile {
+	word-wrap: break-word;
 	
-	
-}
-
-#youtube{
-	background-color:red;
-	color: white;
-}
-
-#google{
-	background-color:black;
-	color: white;
-}
-
-#imdb{
-	background-color:yellow;
-	color: black;
 }
 
 .center{
@@ -38,6 +15,18 @@
 		margin-left: 40px;
 		}
 		
-.glyphicon{
+.glyphicon-list-alt{
 	font-size:40px;
+}
+
+.infoList{
+	padding: 30px;
+}
+
+.glyphicon-remove{
+color: #FFF;	
+}
+
+.glyphicon-remove:hover{
+color: navy;	
 }

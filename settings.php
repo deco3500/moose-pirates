@@ -30,6 +30,14 @@ $query2 = "Select * from users where email <> '". $_SESSION['user']."' AND id no
 
 $result2 = mysqli_query($conn, $query2);
 
+$query3 = "Select keyword from user_keywords where id in (SELECT id from users where email = '". $_SESSION['user'] ."'  )";
+
+$keywords = mysqli_query($conn, $query3);
+
+$query4 = "Select * from users where email <> '". $_SESSION['user'] ."'  AND id IN (Select friend_id FROM friends where id IN (SELECT id from users where email = '". $_SESSION['user'] ."'  ))";
+
+$friends = mysqli_query($conn, $query4);
+
 ?>
 <!doctype html>
 <html>
@@ -56,14 +64,25 @@ $result2 = mysqli_query($conn, $query2);
     </div>
  </div>
 </nav>
-
-<div class="center" >
-	<?php if ($status  == 'error') { echo '<div class="alert alert-danger">'. $_GET['message']. '</div>';} elseif ($status  == 'success') { echo '<div class="alert alert-info">'. $_GET['message']. '</div>';}?>
+<?php if ($status  == 'error') { echo '<div class=" center alert alert-danger">'. $_GET['message']. '</div>';} elseif ($status  == 'success') { echo '<div class=" center alert alert-info">'. $_GET['message']. '</div>';}?>
+<div class="row">
+<div class="infoList col-md-6 clearfix" >
+	
 		<form action="insert.php" method="post">
-			Keyword: <input type="text" name="keyword"><br>
-		<input type="submit">
+			Keyword: <input type="text" name="keyword">
+		<input class="pull-right" type="submit">
 		</form>
         </br>
+        
+        <ul class="list-group">
+         <?php while ($row = mysqli_fetch_assoc($keywords)) {
+          		echo '<li class="list-group-item">'.$row['keyword'].' <span class="badge"><a href="deleteKeyword.php?keyword='. $row['keyword'] .'"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></a></span></li>';
+		 } ?>
+        </ul>
+
+</div>
+<div class="infoList col-md-6 clearfix" >
+
         <form action="insertFriend.php" method="post">
 			Add a Friend: <select name="friend" id="friend" required>
             				  <option disabled selected>-- <?= ('Add a Friend'); ?> --</option>
@@ -71,11 +90,20 @@ $result2 = mysqli_query($conn, $query2);
                               		echo "<option value='". $row['id'] ."'>".$row['name'] ."</option>";
 							  } ?>
                             </select>
-                            </br>
-		<input type="submit">
+                           
+		<input class="pull-right" type="submit">
 		</form>
+        </br>
+        
+        <ul class="list-group">
+         <?php while ($row = mysqli_fetch_assoc($friends)) {
+          		echo '<li class="list-group-item">'.$row['name'].' <span class="badge"><a href="deletefriend.php?friend='.$row['id'].'"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></a></span></li>';
+		 } ?>
+        </ul>
 
 </div>
+</div>
+
 
 
 </body>

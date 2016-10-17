@@ -71,7 +71,6 @@ $result = mysqli_query($conn, $query);
 </nav>
     <div class="row">
         <div class="col-md-11">
-        <h3> News Feed </h3>
         <div>
         <div class="row">
         <?php
@@ -115,6 +114,7 @@ $result = mysqli_query($conn, $query);
 					$news = json_decode ($response->getBody(), 1);
 	
 						foreach ($news['value'] as $acc) {
+							file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($acc  , true) . "\n", FILE_APPEND);
 						if (isset($acc['image']['thumbnail']['contentUrl'])){
 							echo "<div class='col-md-3 center news_tile'>";
 							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='200' width='200' </img>";
@@ -136,7 +136,7 @@ $result = mysqli_query($conn, $query);
         </div>
         
 		</div>
-        <div class="col-md-1" style=" text-align:center">
+        <div class="col-md-1 center" style=" text-align:center">
  			<a class="btn btn-social-icon btn-lg btn-facebook">
  				 <span class="fa fa-facebook"></span>
 			</a> 
