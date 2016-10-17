@@ -116,9 +116,9 @@ $result = mysqli_query($conn, $query);
 						foreach ($news['value'] as $acc) {
 							file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($acc  , true) . "\n", FILE_APPEND);
 						if (isset($acc['image']['thumbnail']['contentUrl'])){
-							echo "<div class='col-md-3 center news_tile'>";
-							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='200' width='200' </img>";
-							echo  "<p><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></p>";
+							echo "<div class='col-md-3 news_tile image'>";
+							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='100%' width='100%'</img>";
+							echo  "<h2><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></span></h2>";
 							echo "</div>";
 							
 						}
@@ -137,26 +137,22 @@ $result = mysqli_query($conn, $query);
         
 		</div>
         <div class="col-md-1 center" style=" text-align:center">
- 			<a class="btn btn-social-icon btn-lg btn-facebook">
- 				 <span class="fa fa-facebook"></span>
-			</a> 
-            </br>  
- 			<a class="btn btn-social-icon btn-lg btn-reddit">
- 				 <span class="fa fa-reddit"></span>
-			</a> 
-            </br>  
- 			<a class="btn btn-social-icon btn-lg btn-google">
- 				 <span class="fa fa-google"></span>
-			</a> 
-            </br>  
- 			<a class="btn btn-social-icon btn-lg btn-twitter">
- 				 <span class="fa fa-twitter"></span>
-			</a> 
-            </br>   
-             <a class="btn btn-social-icon btn-lg btn-instagram">
- 				 <span class="fa fa-instagram"></span>
-			</a> 
-            </br> 
+                  <div class="sidebar-nav-fixed pull-right affix">
+                <div class="well">
+                    <ul class="nav ">
+                        <li> <a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-reddit"><span class="fa fa-reddit"></span></a> 
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a> 
+                        </li>
+                    </ul>
+                </div>
+                <!--/.well -->
         </div>
 
 </div>

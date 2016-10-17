@@ -54,8 +54,11 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 <html>
 <head>
 
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link href="css/docs.css" rel="stylesheet" >
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-social.css" type="text/css" />
 <meta charset="UTF-8">
 <title>Moose Pirates</title>
 </head>
@@ -76,20 +79,17 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
  </div>
 </nav>
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-11">
         <div>
         <div class="row">
         <div class="col-md-4">
 		<form class="form-signin" method="POST" action="login.php">
-                <h2 class="form-signin-heading">Please sign in</h2>
+                <h3 class="form-signin-heading">Please sign in</h3>
                 <label for="inputEmail" class="text-info">Email address</label>
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
                 <label for="inputPassword" class="text-info">Password</label>
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" required>
                 <div class="checkbox">
-                  <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                  </label>
                 </div>
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
                 <br>
@@ -100,31 +100,27 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
         </div>
         
 		</div>
-        <div class="col-md-2">
-        	<a href="http://www.facebook.com"><div id="facebook" class="tile">
-            Facebook
-			</div></a>  
-            <a href="http://www.youtube.com"><div id="youtube" class="tile">
-            Youtube
-			</div></a>
-            <a href="http://www.google.com"><div id="google" class="tile">
-            Google
-			</div></a>
-            <a href="http://www.imdb.com"><div id="imdb" class="tile">
-            IMDB
-			</div></a>     
+        <div class="col-md-1 center">
+                  <div class="sidebar-nav-fixed pull-right affix">
+                <div class="well">
+                    <ul class="nav ">
+                        <li> <a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-reddit"><span class="fa fa-reddit"></span></a> 
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a> 
+                        </li>
+                    </ul>
+                </div>
+                <!--/.well -->
+        </div>
+        </div>   
         </div>
 
 </div>
-</body>
-</html>
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
-
-<body>
 </body>
 </html>

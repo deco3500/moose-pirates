@@ -17,6 +17,7 @@
 		
 .glyphicon-list-alt{
 	font-size:40px;
+	color: #222;
 }
 
 .infoList{
@@ -29,4 +30,56 @@ color: #FFF;
 
 .glyphicon-remove:hover{
 color: navy;	
+}
+
+.image { 
+   position: relative;
+   text-align: left;
+   padding: 15px;
+}
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 15px; 
+   width: 80%;
+   color: white; 
+   background: rgba(0, 0, 0, 0.7); 
+   line-height: 28px;
+}
+
+h2 span { 
+   color: white; 
+   font: bold 13px/25px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   padding: 10px; 
+   line-height: .5;
+}
+
+h2 span a{ 
+   color: white; 
+}
+
+body {
+  background-color: #222;	
+}
+
+.navbar-default {
+	background-color: #337ab7;
+	border-color: rgba(51, 122, 183, 0.3);
+	
+}
+
+.well{
+	background-color: #337ab7;
+	border-color: rgba(51, 122, 183, 0.3);		
+}
+
+h3 {
+	color: #FFF;
+	
+}
+
+p {
+	color: #FFF;
 }

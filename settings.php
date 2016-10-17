@@ -69,7 +69,7 @@ $friends = mysqli_query($conn, $query4);
 <div class="infoList col-md-6 clearfix" >
 	
 		<form action="insert.php" method="post">
-			Keyword: <input type="text" name="keyword">
+			<label style="color: #FFF">Keyword:</label> <input type="text" name="keyword">
 		<input class="pull-right" type="submit">
 		</form>
         </br>
@@ -84,7 +84,7 @@ $friends = mysqli_query($conn, $query4);
 <div class="infoList col-md-6 clearfix" >
 
         <form action="insertFriend.php" method="post">
-			Add a Friend: <select name="friend" id="friend" required>
+			<label style="color: #FFF"> Add a Friend: </label> <select name="friend" id="friend" required>
             				  <option disabled selected>-- <?= ('Add a Friend'); ?> --</option>
                               <?php while ($row = mysqli_fetch_assoc($result2)) {
                               		echo "<option value='". $row['id'] ."'>".$row['name'] ."</option>";

@@ -58,8 +58,11 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
 <html>
 <head>
 
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link href="css/docs.css" rel="stylesheet" >
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-social.css" type="text/css" />
 <meta charset="UTF-8">
 <title>Moose Pirates</title>
 </head>
@@ -80,7 +83,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
  </div>
 </nav>
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-11">
         <div>
         <div class="row">
         <div class="col-md-4">
@@ -93,7 +96,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
      ?>
 
       <form class="form-signin" method="POST" action="signUp.php">
-        <h2 class="form-signin-heading">Sign Up</h2>
+        <h3 class="form-signin-heading">Sign Up</h3>
         <label for="fnameInput" class="text-info">Name</label>
         <input type="text" id="fnamInput" class="form-control" name="name" placeholder="Name" required autofocus>
         <br>
@@ -116,19 +119,24 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
         </div>
         
 		</div>
-        <div class="col-md-2">
-        	<a href="http://www.facebook.com"><div id="facebook" class="tile">
-            Facebook
-			</div></a>  
-            <a href="http://www.youtube.com"><div id="youtube" class="tile">
-            Youtube
-			</div></a>
-            <a href="http://www.google.com"><div id="google" class="tile">
-            Google
-			</div></a>
-            <a href="http://www.imdb.com"><div id="imdb" class="tile">
-            IMDB
-			</div></a>     
+        <div class="col-md-1 center">
+                  <div class="sidebar-nav-fixed pull-right affix">
+                <div class="well">
+                    <ul class="nav ">
+                        <li> <a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-reddit"><span class="fa fa-reddit"></span></a> 
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
+                        </li>
+                        <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a> 
+                        </li>
+                    </ul>
+                </div>
+                <!--/.well -->
+        </div>    
         </div>
 
 </div>
