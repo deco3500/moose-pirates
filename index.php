@@ -29,43 +29,12 @@ $result2 = mysqli_query($conn, $query2);
 $request = NULL;
 
 while ($row = mysqli_fetch_assoc($result2)) {
-$query = "Select keyword from user_keywords where id = ". $row['id']."";
+$query = "Select keyword from user_keywords where id in (Select friend_id FROM friends where id = ". $row['id'].") OR id = ". $row['id']."
+";
 
 }
 
 $result = mysqli_query($conn, $query);
-
-
-// This sample uses the Apache HTTP client from HTTP Components (http://hc.apache.org/httpcomponents-client-ga/)
-while ($row = mysqli_fetch_assoc($result)) {
-require_once 'HTTP/Request2.php';
-
-$request = new Http_Request2('https://api.cognitive.microsoft.com/bing/v5.0/news/search');
-$url = $request->getUrl();
-
-$headers = array(
-    // Request headers
-    'Ocp-Apim-Subscription-Key' => '2d1dd243b2d14531a77d2655db73d8d4',
-);
-
-$request->setHeader($headers);
-
-$parameters = array(
-    // Request parameters
-    'q' => $row['keyword'],
-    'count' => '8',
-    'offset' => '0',
-    'mkt' => 'en-us',
-    'safeSearch' => 'Moderate',
-);
-
-$url->setQueryVariables($parameters);
-
-$request->setMethod(HTTP_Request2::METHOD_GET);
-
-// Request body
-$request->setBody("{body}");
-}
 
 
 
@@ -75,9 +44,12 @@ $request->setBody("{body}");
 <!doctype html>
 <html>
 <head>
-
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
 <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+<link href="css/docs.css" rel="stylesheet" >
 <link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-social.css" type="text/css" />
+
 <meta charset="UTF-8">
 <title>Moose Pirates</title>
 </head>
@@ -98,53 +70,93 @@ $request->setBody("{body}");
  </div>
 </nav>
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-11">
         <h3> News Feed </h3>
         <div>
         <div class="row">
         <?php
 	
-		
-		try
-		{
-		if ($request == NULL){
-			echo "please set keywords in settings";
-		}
-		else{
-		$response = $request->send();
-		$news = json_decode ($response->getBody(), 1);
-		
-			foreach ($news['value'] as $acc) {
-				echo "<div class='col-md-3 center'>";
-                echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='200' width='200' </img>";
-				echo  "<p><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></p>";
-				echo "</div>";
+		while ($row = mysqli_fetch_assoc($result)) {
+			require_once 'HTTP/Request2.php';
+			
+			$request = new Http_Request2('https://api.cognitive.microsoft.com/bing/v5.0/news/search');
+			$url = $request->getUrl();
+			
+			$headers = array(
+				// Request headers
+				'Ocp-Apim-Subscription-Key' => '2d1dd243b2d14531a77d2655db73d8d4',
+			);
+			
+			$request->setHeader($headers);
+			
+			$parameters = array(
+				// Request parameters
+				'q' => $row['keyword'],
+				'count' => '8',
+				'offset' => '0',
+				'mkt' => 'en-us',
+				'safeSearch' => 'Moderate',
+			);
+			
+			$url->setQueryVariables($parameters);
+			
+			$request->setMethod(HTTP_Request2::METHOD_GET);
+			
+			// Request body
+			$request->setBody("{body}");
 
+					try
+					{
+					if ($request == NULL){
+						echo "please set keywords in settings";
+					}
+					else{
+					$response = $request->send();
+					$news = json_decode ($response->getBody(), 1);
+	
+						foreach ($news['value'] as $acc) {
+						if (isset($acc['image']['thumbnail']['contentUrl'])){
+							echo "<div class='col-md-3 center news_tile'>";
+							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='200' width='200' </img>";
+							echo  "<p><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></p>";
+							echo "</div>";
+							
+						}
+			
+						}
+							}
+					}
+					catch (HttpException $ex)
+					{
+						echo $ex;
 			}
-				}
-		}
-		catch (HttpException $ex)
-		{
-			echo $ex;
 		}
 		?>
         </div>
         </div>
         
 		</div>
-        <div class="col-md-2">
-        	<a href="http://www.facebook.com"><div id="facebook" class="tile">
-            Facebook
-			</div></a>  
-            <a href="http://www.youtube.com"><div id="youtube" class="tile">
-            Youtube
-			</div></a>
-            <a href="http://www.google.com"><div id="google" class="tile">
-            Google
-			</div></a>
-            <a href="http://www.imdb.com"><div id="imdb" class="tile">
-            IMDB
-			</div></a>     
+        <div class="col-md-1" style=" text-align:center">
+ 			<a class="btn btn-social-icon btn-lg btn-facebook">
+ 				 <span class="fa fa-facebook"></span>
+			</a> 
+            </br>  
+ 			<a class="btn btn-social-icon btn-lg btn-reddit">
+ 				 <span class="fa fa-reddit"></span>
+			</a> 
+            </br>  
+ 			<a class="btn btn-social-icon btn-lg btn-google">
+ 				 <span class="fa fa-google"></span>
+			</a> 
+            </br>  
+ 			<a class="btn btn-social-icon btn-lg btn-twitter">
+ 				 <span class="fa fa-twitter"></span>
+			</a> 
+            </br>   
+             <a class="btn btn-social-icon btn-lg btn-instagram">
+ 				 <span class="fa fa-instagram"></span>
+			</a> 
+            </br> 
         </div>
 
 </div>
