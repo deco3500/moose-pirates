@@ -103,8 +103,9 @@ $friends = mysqli_query($conn, $query4);
 
 </div>
 </div>
-
-
+<div class="center">
+<a href="logout.php" class="btn btn-lg btn-primary" >Log out of <?php echo $_SESSION['user']; ?></a>
+</div>
 
 </body>
 </html>

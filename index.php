@@ -116,7 +116,7 @@ $result = mysqli_query($conn, $query);
 						foreach ($news['value'] as $acc) {
 							file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($acc  , true) . "\n", FILE_APPEND);
 						if (isset($acc['image']['thumbnail']['contentUrl'])){
-							echo "<div class='col-md-3 news_tile image'>";
+							echo "<div class='col-md-3 col-sm-4 news_tile image'>";
 							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='100%' width='100%'</img>";
 							echo  "<h2><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></span></h2>";
 							echo "</div>";
