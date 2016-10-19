@@ -74,7 +74,7 @@ $result = mysqli_query($conn, $query);
         <div>
         <div class="row">
         <?php
-	
+		if(mysqli_num_rows($result) > 0){
 		while ($row = mysqli_fetch_assoc($result)) {
 			require_once 'HTTP/Request2.php';
 			
@@ -103,18 +103,18 @@ $result = mysqli_query($conn, $query);
 			
 			// Request body
 			$request->setBody("{body}");
-
 					try
 					{
-					if ($request == NULL){
-						echo "please set keywords in settings";
+					$response = $request->send();
+					$news = json_decode ($response->getBody(), 1);
+					
+					if (empty($news)){
+						echo "please set your keywords in settings to see articles that relate to your specific intrests";
 					}
 					else{
-					$response = $request->send();
 					$news = json_decode ($response->getBody(), 1);
 	
 						foreach ($news['value'] as $acc) {
-							file_put_contents('function.log', date('H:i:s') . __FUNCTION__ . __LINE__ . print_r($acc  , true) . "\n", FILE_APPEND);
 						if (isset($acc['image']['thumbnail']['contentUrl'])){
 							echo "<div class='col-md-3 col-sm-4 news_tile image'>";
 							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='100%' width='100%'</img>";
@@ -128,8 +128,13 @@ $result = mysqli_query($conn, $query);
 					}
 					catch (HttpException $ex)
 					{
+						
 						echo $ex;
 			}
+		}
+		} else{
+			echo "<h3>Please set your keywords in settings to see articles that relate to your specific intrests</h3>";
+			
 		}
 		?>
         </div>
