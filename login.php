@@ -98,6 +98,21 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
         </div>
         </div>
         </div>
+		
+		<div id="introduction">
+            <div>
+                <div>
+                    <h3>Sign Up Now!</h3>
+                    <h3>It's free and always will be</h3><br>
+					<ul>
+					<article>Get latest news everyday!</article>
+					<article>News based on your key interest.</article>
+					<article>Get connected with your friends.</article>
+					<article>Share it through Facebook and Twitter</article>
+					</ul>
+                </div>
+            </div> 
+		</div>
         
 		</div>
         <div class="col-md-1 center">

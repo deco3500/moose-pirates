@@ -85,6 +85,13 @@ p {
 	color: #FFF;
 }
 
+article{
+	padding-left: 50px;
+	color: #337ab7;
+	font-size: 20px;
+}
+
 .logout{
 	width: 300px;
 }
+
