@@ -96,12 +96,10 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
                 <p>Don't have an account? <a href="signUp.php">Sign Up Here</a></p>
         </form>
         </div>
-        </div>
-        </div>
-		
-		<div id="introduction">
-            <div>
-                <div>
+        
+       	<div id="introduction" class="col-md-5">
+         
+                <div style="padding-left: 30px;">
                     <h3>Sign Up Now!</h3>
                     <h3>It's free and always will be</h3><br>
 					<ul>
@@ -110,10 +108,17 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 					<article>Get connected with your friends.</article>
 					<article>Share it through Facebook and Twitter</article>
 					</ul>
+                    </br>
+                    <a href="signUp.php" class="btn btn-lg btn-primary btn-block" >Sign Up</a>
                 </div>
+                
             </div> 
-		</div>
+		
         
+        </div>
+        </div>
+		
+	
 		</div>
         <div class="col-md-1 center">
                   <div class="sidebar-nav-fixed pull-right affix">
