@@ -123,15 +123,15 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
                   <div class="sidebar-nav-fixed pull-right affix">
                 <div class="well">
                     <ul class="nav ">
-                        <li> <a class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
+                        <li> <a href="http://www.facebook.com" target='_blank' class="btn btn-social-icon btn-lg btn-facebook"><span class="fa fa-facebook"></span></a>
                         </li>
-                        <li><a class="btn btn-social-icon btn-lg btn-reddit"><span class="fa fa-reddit"></span></a> 
+                        <li><a href="http://www.reddit.com" target='_blank' class="btn btn-social-icon btn-lg btn-reddit"><span class="fa fa-reddit"></span></a> 
                         </li>
-                        <li><a class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a>
+                        <li><a href="http://www.google.com" target='_blank' class="btn btn-social-icon btn-lg btn-google"><span class="fa fa-google"></span></a>
                         </li>
-                        <li><a class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
+                        <li><a href="http://www.twitter.com" target='_blank' class="btn btn-social-icon btn-lg btn-twitter"><span class="fa fa-twitter"></span></a>
                         </li>
-                        <li><a class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a> 
+                        <li><a href="http://www.instagram.com" target='_blank' class="btn btn-social-icon btn-lg btn-instagram"><span class="fa fa-instagram"></span></a> 
                         </li>
                     </ul>
                 </div>
