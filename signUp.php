@@ -78,7 +78,7 @@ if (isset($_POST['name']) && isset($_POST['email']) && isset($_POST['password'])
 				</div>
     </div>
        <div class="navbar-header navbar-right" >
-      <a class="navbar-brand" href="settings.php" ><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size:40px"></span></a>
+      <a href="login.php" class="btn btn-lg btn-primary btn-block" style="margin-top:15px; background-color: #333 ">Sign In</a>
     </div>
  </div>
 </nav>

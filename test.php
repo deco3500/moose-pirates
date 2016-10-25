@@ -1,40 +1,15 @@
 <?php
+ini_set('display_errors', 'Off');
 session_start();
 
-if (!isset($_SESSION['user']) || $_SESSION['authenticated'] == false) {
+if (isset($_SESSION['user']) || $_SESSION['authenticated'] == true) {
 
- header("location: test.php");
-
-}
-
-$servername = "localhost";
-$username = "root"; //Eneter Username for ESSCC Earthquake DB
-$database="moose-pirates";
-$password="MYPASSWORD123";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
-
-$query2 = "Select id from users where email = '". $_SESSION['user']."'";
-
-$result2 = mysqli_query($conn, $query2);
-
-$request = NULL;
-
-while ($row = mysqli_fetch_assoc($result2)) {
-$query = "Select keyword from user_keywords where id in (Select friend_id FROM friends where id = ". $row['id'].") OR id = ". $row['id']."
-";
+ header("location: index.php");
 
 }
 
-$result = mysqli_query($conn, $query);
+
+$_SESSION['keywords']  = $_SESSION['keywords']  ?: array();
 
 
 
@@ -65,17 +40,55 @@ $result = mysqli_query($conn, $query);
 				</div>
     </div>
        <div class="navbar-header navbar-right" >
-      <a class="navbar-brand" href="settings.php"><span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span></a>
+      <a href="login.php" class="btn btn-lg btn-primary btn-block" style="margin-top:15px; background-color: #333">Sign In</a>
     </div>
  </div>
 </nav>
     <div class="row" style="margin-left:10px">
-        <div class="col-md-11" >
+    	<div class="col-md-3" style="padding-top: 50px">
+        
+        <form action="insertSession.php" method="post">
+			<label style="color: #FFF">Keyword:</label> <input type="text" name="keyword">
+		<input class="pull-right" type="submit">
+		</form>
+        </br>
+        
+        <ul class="list-group">
+         <?php 
+	
+		 
+		 foreach( $_SESSION['keywords'] as $row ) {
+          		echo '<li class="list-group-item">'. $row .' <span class="badge"><a href="deleteSessionKeyword.php?keyword='. $row .'"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></a></span></li>';
+		 } ?>
+        </ul>
+        
+        </br>
+        
+        <h3> Trending Key Words</h3>
+        
+        <ul class="list-group">
+        	<li class="list-group-item"> Batman <span class="badge"><a href="insertSessionKeyword.php?keyword=Batman"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Joss Whedon <span class="badge"><a href="insertSessionKeyword.php?keyword= <?php echo urlencode('Joss Whedon')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Moose News <span class="badge"><a href="insertSessionKeyword.php?keyword=<?php echo urlencode('Moose News')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> The Great Escape <span class="badge"><a href="insertSessionKeyword.php?keyword=<?php echo urlencode('The Great Escape')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Donald Trump <span class="badge"><a href="insertSessionKeyword.php?keyword=<?php echo urlencode('Donald Trump')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+		
+        </ul>
+        
+        <p> To be able to save your keywords create an account </p>
+         </br>
+                    <a href="signUp.php" class="btn btn-lg btn-primary btn-block" >Sign Up</a>
+        </div>
+        <div class="col-md-8">
         <div>
         <div class="row">
         <?php
-		if(mysqli_num_rows($result) > 0){
-		while ($row = mysqli_fetch_assoc($result)) {
+			 if (empty($_SESSION['keywords'])) {
+			 echo '<h3 style="margin-top: 50px">Please Set your keywords on the right to see articles that relate to your intrests </br></br> For the full experince we recommed creating an account and saving your Keywords, this will save you doing it next time </br></br> Moose News is designed to act as a homepage to make it even easier for you to receive your news</h3> ';
+			 
+		 }
+		 
+		foreach( $_SESSION['keywords'] as $row ) {
 			require_once 'HTTP/Request2.php';
 			
 			$request = new Http_Request2('https://api.cognitive.microsoft.com/bing/v5.0/news/search');
@@ -90,7 +103,7 @@ $result = mysqli_query($conn, $query);
 			
 			$parameters = array(
 				// Request parameters
-				'q' => $row['keyword'],
+				'q' => $row,
 				'count' => '8',
 				'offset' => '0',
 				'mkt' => 'en-us',
@@ -116,10 +129,9 @@ $result = mysqli_query($conn, $query);
 	
 						foreach ($news['value'] as $acc) {
 						if (isset($acc['image']['thumbnail']['contentUrl'])){
-							echo "<div class='col-md-3 col-sm-4 col-lg-2 col-xl-2 news_tile image'>";
+							echo "<div class='col-md-4 col-sm-4 col-lg-3 col-xl-3 news_tile image'>";
 							echo "<img src='" . $acc['image']['thumbnail']['contentUrl'] . "' height='100%' width='100%'</img>";
-							echo  "<h2 class='ban".
-rand(1,3)."'><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></span></h2>";
+							echo  "<h2 class='ban1'><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] . "</a></span></h2>";
 							echo "</div>";
 							
 						}
@@ -133,10 +145,7 @@ rand(1,3)."'><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] 
 						echo $ex;
 			}
 		}
-		} else{
-			echo "<h3>Please set your keywords in settings to see articles that relate to your specific intrests</h3>";
-			
-		}
+		
 		?>
         </div>
         </div>
@@ -144,9 +153,6 @@ rand(1,3)."'><span><a href='". $acc['url'] ."' target='_blank'>" . $acc['name'] 
 		</div>
         <div class="col-md-1 center" style=" text-align:center">
                   <div class="sidebar-nav-fixed pull-right affix">
-                  <p style="padding-right: 4px"> <b> Keywords  </b></p>
-                    <p style="padding-right: 4px"><span class="glyphicon glyphicon glyphicon glyphicon-duplicate" style="color: rgba(80, 48, 12, 1); " aria-hidden="true"></span> Yours  </p>
-                   <p style="padding-right: 4px"><span class="glyphicon glyphicon glyphicon glyphicon-duplicate" style="color: rgba(12, 48, 90, 1)" aria-hidden="true"></span> Friends  </p>
 
                 <div class="well">
                     <ul class="nav ">

@@ -1,7 +1,7 @@
 <?php
+ini_set('display_errors', 'Off');
 
  session_start();
-  
 $servername = "localhost";
 $username = "root"; 
 $database="moose-pirates";
@@ -36,12 +36,7 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
         }
       }
 
-      if ($result && $_SESSION['authenticated']) {
-        $_SESSION['user'] = $_POST['email'];
-        header('Location: index.php');
-      } else {
-        echo "Incorrect Username/Password";
-      }
+
 
     }
 
@@ -74,7 +69,7 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
 				</div>
     </div>
        <div class="navbar-header navbar-right" >
-      <a class="navbar-brand" href="settings.php" ><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size:40px"></span></a>
+      <a href="login.php" class="btn btn-lg btn-primary btn-block" style="margin-top:15px; background-color: #333 ">Sign In</a>
     </div>
  </div>
 </nav>
@@ -85,6 +80,14 @@ mysqli_select_db( $conn, "moose-pirates") or die( "Unable to select database");
         <div class="col-md-4">
 		<form class="form-signin" method="POST" action="login.php">
                 <h3 class="form-signin-heading">Please sign in</h3>
+                <?php 
+				      if ($result && $_SESSION['authenticated']) {
+							$_SESSION['user'] = $_POST['email'];
+							header('Location: index.php');
+						  } else if ($result) {
+							echo "</br><p style='color: white;'>Incorrect Username/Password</p>";
+						  }
+				?>
                 <label for="inputEmail" class="text-info">Email address</label>
                 <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
                 <label for="inputPassword" class="text-info">Password</label>

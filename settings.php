@@ -5,7 +5,7 @@ session_start();
 
 if (!isset($_SESSION['user']) || $_SESSION['authenticated'] == false) {
 
- header("location: login.php");
+ header("location: test.php");
 
 }
 $status = isset($_GET['status']) ? $_GET['status'] : '';
@@ -60,7 +60,7 @@ $friends = mysqli_query($conn, $query4);
 				</div>
     </div>
        <div class="navbar-header navbar-right" >
-      <a class="navbar-brand" href="settings.php"><span class="glyphicon glyphicon glyphicon-list-alt" aria-hidden="true"></span></a>
+      <a class="navbar-brand" href="settings.php"><span class="glyphicon glyphicon glyphicon-cog" aria-hidden="true"></span></a>
     </div>
  </div>
 </nav>
@@ -79,6 +79,20 @@ $friends = mysqli_query($conn, $query4);
           		echo '<li class="list-group-item">'.$row['keyword'].' <span class="badge"><a href="deleteKeyword.php?keyword='. $row['keyword'] .'"><span class="glyphicon glyphicon glyphicon-remove" aria-hidden="true"></span></a></span></li>';
 		 } ?>
         </ul>
+        
+        </br>
+        
+        <h3> Trending Key Words</h3>
+        
+        <ul class="list-group">
+        	<li class="list-group-item"> Batman <span class="badge"><a href="insertKeyword.php?keyword=Batman"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Joss Whedon <span class="badge"><a href="insertKeyword.php?keyword= <?php echo urlencode('Joss Whedon')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Moose News <span class="badge"><a href="insertKeyword.php?keyword=<?php echo urlencode('Moose News')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> The Great Escape <span class="badge"><a href="insertKeyword.php?keyword=<?php echo urlencode('The Great Escape')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+            <li class="list-group-item"> Donald Trump <span class="badge"><a href="insertKeyword.php?keyword=<?php echo urlencode('Donald Trump')?>"><span class="glyphicon glyphicon glyphicon-plus" aria-hidden="true"></span></a></span></li>
+		
+        </ul>
+        
 
 </div>
 <div class="infoList col-md-6 clearfix" >
