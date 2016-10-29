@@ -1,10 +1,20 @@
 ###**Welcome to the Moose Pirates Repository!**
 
-This is the design space for our upcoming project, the MooseNews plugin and mobile application.
+This is the design space for our upcoming project, the MooseNews plugin and mobile application, which is currently a website prototype.
 It aims to add personalised news articles to your home page using key words that can be shared with friends.
 
-**Introduction**
+**Promotional Material**
+(Video here)
+
+**How to use the prototype**
+http://188.166.212.124/deco3500/moose-pirates/test.php
+(Instructions for setting it up on their end)
+
+**Background**
 The average person is bombarded with articles and clickbait when they attempt to find news, most of which bears no relevance or interest to them. MooseNews is a plugin to Google Chrome that offers a personalised collaborative news experience for the future. It transforms your New Tab page into a personal hub of information with convenient links to your commonly used services. The news MooseNews provides is based on keywords you enter, edit, and remove at any time in order to fully personalise the news displayed. MooseNews also provides a social experience through a friends network where you can find the key interest areas of all your friends to see what they're interested in, as well as share your interests with them.
+
+**Progress**
+MooseNews is currently a website that has many of the planned features implemented, with some changes also having developed in the prototyping process from implementation difficulties, and user feedback. 
 
 **Concept**
 Every person has their own personal tastes and areas of interest when it comes to what items of news they seek out. These interests can be very specific and difficult to find articles on. For example, if someone has a favourite director, this plugin will immediately display recent articles about their achievements and recent works without having to sift through pages of unrelated entertainment news. They simply choose their key areas of interest, and articles about these topics would be immediately displayed in their browser.
@@ -21,20 +31,28 @@ Moose News will also be linked to social media to enhance the experience for the
 
 Another way to integrate social media is to make it easy for users to share articles they feel are interesting. This can be done by dragging the articles from the main section of the page and dropping them onto the social media icons to the right of the page. This will facilitate convenient and simple sharing of articles on social media.
 
+**Process**
+The team started off by brainstorming approaches to the problem space, to refine the original idea, which was submitted by Nick. It was decided that a website would be a good starting point for a prototype rather than a mobile application or a browser plugin, since the team had more of an understanding of that area of programming, and everything important to showcase was possible with just a website. 
+
+So initially Gareth made some Balsamiq mock-ups based on Nick's original design idea and conducted some user tests in order to improve on the layout of the design. After modifications were made, the rest of the group coded the design up as a website and gave it back to Gareth to test with users for functionality improvements to make the website more intuitive to use.
+
+Throughout the rest of the semester, the cycle continued with the website slowly gaining more functionality until it was at a point the team was happy with submitting. Some of the functionality is still hard-coded to demonstrate the concept, but MooseNews is usable.
+
 ####**The Team**
 **Nick Cassidy - Team Leader and Code**
- Experienced in Web Application development, specifically PHP and Javascript, and Database Management.
+Nick did a lot of the hard programming and database work, leading the way through the prototyping.
 
 **Samuel Buckley - Code**
-From more of an engineering background, Samuel has experience in Java and Firmware and doesn't have the web-based background shared by the other members of the team. He has previously done many team based projects in both IT and Engineering.
+Sam helped Nick code & prototype the website, whilst offering much feedback and pushing for important features to be prioritised.
 
 **Gareth Seeto - Logistics and Design**
-Familiar with web design, web based coding (HTML, CSS, JavaScript, etc), interface design, and database coding and management (SQL, PHPMyAdmin, Microsoft Access, etc). With a background in team management, communication and leadership from subjects such as DECO3801, DECO2800, and MGTS1301, Gareth has the knowledge and skills suited to manage the Moose Pirates logistics as well as design the interface for MooseNews.
+Gareth created the mock-ups for the prototype, and conducted numerous user feedback studies for both his mock-ups and the prototype website itself.
 
 **Zaim Rashdan - Code and Design**
-Has experience with database (MySQL), web interface design and web based coding (HTML, CSS, JavaScript, etc). Zaim also has experience in some other programming language (Java, C#, etc). He has previously done other team based projects from other subjects such as DECO3800, DECO3801 and INFS3222.
+Zaim created the logo and also contributed significantly to coding the prototype.
 
 
+###**Proposal Documentation**
 ####**Decision Making Process**
 **How will decisions be made?**
 Decisions will be made with a majority vote. In the event of a tie, see the following section, as it is then considered a conflict.
