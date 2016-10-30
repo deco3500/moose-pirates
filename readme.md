@@ -1,20 +1,20 @@
 ###**Welcome to the Moose Pirates Repository!**
 
-This is the design space for our upcoming project, the MooseNews plugin and mobile application, which is currently a website prototype.
+This is the design space for our upcoming project, the MooseNews plugin and mobile application, currently a website prototype.
 It aims to add personalised news articles to your home page using key words that can be shared with friends.
 
 **Promotional Material**
 https://youtu.be/_ovekl7zcZk
 
-**How to use the prototype**
+**The Prototype**
 http://188.166.212.124/deco3500/moose-pirates/test.php
-(Instructions for setting it up on their end)
+Without signing in, you can use the news keywords, but the friends system requires you to create an account.
 
 **Background**
-The average person is bombarded with articles and clickbait when they attempt to find news, most of which bears no relevance or interest to them. MooseNews is a plugin to Google Chrome that offers a personalised collaborative news experience for the future. It transforms your New Tab page into a personal hub of information with convenient links to your commonly used services. The news MooseNews provides is based on keywords you enter, edit, and remove at any time in order to fully personalise the news displayed. MooseNews also provides a social experience through a friends network where you can find the key interest areas of all your friends to see what they're interested in, as well as share your interests with them.
+The average person is bombarded with both articles and clickbait when they attempt to find news, most of which often bears no relevance or interest to them. MooseNews is a plugin to Google Chrome that offers a personalised collaborative news experience for the future. It transforms your New Tab page into a personal hub of information with convenient links to your favourite websites. The news MooseNews provides is based on keywords you set and remove at any time in order to fully personalise the news displayed. MooseNews also provides a social experience through a friends network where you can find the key interest areas of all your friends to see what they're interested in, as well as share your interests with them.
 
 **Progress**
-MooseNews is currently a website that has many of the planned features implemented, with some changes also having developed in the prototyping process from implementation difficulties, and user feedback. 
+MooseNews is currently a website that has many of the planned features implemented, with some changes also having developed in the prototyping process from implementation difficulties, and user feedback. There are many personalisation and customisation opportunities that have not yet been implemented relating to the layout of the feed and the ordering of articles, especially pertaining to the friends system.
 
 **Concept**
 Every person has their own personal tastes and areas of interest when it comes to what items of news they seek out. These interests can be very specific and difficult to find articles on. For example, if someone has a favourite director, this plugin will immediately display recent articles about their achievements and recent works without having to sift through pages of unrelated entertainment news. They simply choose their key areas of interest, and articles about these topics would be immediately displayed in their browser.
@@ -36,7 +36,7 @@ The team started off by brainstorming approaches to the problem space, to refine
 
 So initially Gareth made some Balsamiq mock-ups based on Nick's original design idea and conducted some user tests in order to improve on the layout of the design. After modifications were made, the rest of the group coded the design up as a website and gave it back to Gareth to test with users for functionality improvements to make the website more intuitive to use.
 
-Throughout the rest of the semester, the cycle continued with the website slowly gaining more functionality until it was at a point the team was happy with submitting. Some of the functionality is still hard-coded to demonstrate the concept, but MooseNews is usable.
+Throughout the rest of the semester, the cycle continued with the website slowly gaining more functionality until it was at a point the team was happy with submitting. Some of the functionality is still hard-coded to demonstrate the concept, but MooseNews is usable in it's current form.
 
 ####**The Team**
 **Nick Cassidy - Team Leader and Code**
