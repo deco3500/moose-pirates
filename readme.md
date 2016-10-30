@@ -4,7 +4,7 @@ This is the design space for our upcoming project, the MooseNews plugin and mobi
 It aims to add personalised news articles to your home page using key words that can be shared with friends.
 
 **Promotional Material**
-(Video here)
+https://youtu.be/_ovekl7zcZk
 
 **How to use the prototype**
 http://188.166.212.124/deco3500/moose-pirates/test.php
